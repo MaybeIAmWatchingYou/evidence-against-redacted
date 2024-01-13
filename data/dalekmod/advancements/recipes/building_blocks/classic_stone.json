@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ccs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:classic_cobble"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:classic_stone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ccs",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:classic_stone"
+		]
+	}
+}

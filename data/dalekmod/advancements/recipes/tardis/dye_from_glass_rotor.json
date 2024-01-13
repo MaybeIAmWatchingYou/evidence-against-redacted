@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rotor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:glass_rotor"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rotor"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_glass_rotor",
+			"dalekmod:orange_glass_rotor",
+			"dalekmod:magenta_glass_rotor",
+			"dalekmod:light_blue_glass_rotor",
+			"dalekmod:lime_glass_rotor",
+			"dalekmod:yellow_glass_rotor",
+			"dalekmod:pink_glass_rotor",
+			"dalekmod:gray_glass_rotor",
+			"dalekmod:cyan_glass_rotor",
+			"dalekmod:light_grey_glass_rotor",
+			"dalekmod:purple_glass_rotor",
+			"dalekmod:blue_glass_rotor",
+			"dalekmod:brown_glass_rotor",
+			"dalekmod:green_glass_rotor",
+			"dalekmod:red_glass_rotor",
+			"dalekmod:black_glass_rotor"
+		]
+	}
+}

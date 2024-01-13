@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:steel_door",
+		"dalekmod:deadlock_door",
+		"dalekmod:dalek_door"
+	]
+}

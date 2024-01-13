@@ -1,0 +1,51 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:meteorite"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.find_meteorite.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.find_meteorite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"find_meteorite_1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "dalekmod:meteorite_1"
+				}
+			}
+		},
+		"find_meteorite_2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "dalekmod:meteorite_2"
+				}
+			}
+		},
+		"find_meteorite_3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "dalekmod:meteorite_3"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"find_meteorite_1",
+			"find_meteorite_2",
+			"find_meteorite_3"
+		]
+	]
+}

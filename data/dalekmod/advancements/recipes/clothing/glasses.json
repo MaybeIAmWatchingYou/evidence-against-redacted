@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:black_plastic"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:glasses"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wool",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:glasses"
+		]
+	}
+}

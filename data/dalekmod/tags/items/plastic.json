@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:white_plastic",
+		"dalekmod:orange_plastic",
+		"dalekmod:magenta_plastic",
+		"dalekmod:light_blue_plastic",
+		"dalekmod:yellow_plastic",
+		"dalekmod:lime_plastic",
+		"dalekmod:pink_plastic",
+		"dalekmod:gray_plastic",
+		"dalekmod:light_gray_plastic",
+		"dalekmod:cyan_plastic",
+		"dalekmod:purple_plastic",
+		"dalekmod:blue_plastic",
+		"dalekmod:brown_plastic",
+		"dalekmod:green_plastic",
+		"dalekmod:red_plastic",
+		"dalekmod:black_plastic"
+	]
+}

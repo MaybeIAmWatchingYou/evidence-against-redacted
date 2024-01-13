@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_smooth_plastic_stairs_crafted",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:yellow_smooth_plastic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:yellow_smooth_plastic_stairs",
+		"count": 4
+	}
+}

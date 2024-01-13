@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		" A ",
+		" # "
+	],
+	"key": {
+		"#": {
+			"tag": "forge:ingots/stainless_steel"
+		},
+		"A": {
+			"tag": "forge:liquids/artron"
+		}
+	},
+	"result": {
+		"item": "dalekmod:tardis_spade_key",
+		"count": 1
+	}
+}

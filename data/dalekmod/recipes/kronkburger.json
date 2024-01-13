@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" B ",
+		"KCK",
+		" B "
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bread"
+		},
+		"K": {
+			"item": "dalekmod:kronkmeat"
+		},
+		"C": {
+			"item": "dalekmod:cheese"
+		}
+	},
+	"result": {
+		"item": "dalekmod:kronkburger",
+		"count": 2
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SS",
+		"SS",
+		"SS"
+	],
+	"key": {
+		"S": {
+			"item": "dalekmod:pure_dalekanium_block"
+		}
+	},
+	"result": {
+		"item": "dalekmod:dalek_door",
+		"count": 3
+	}
+}

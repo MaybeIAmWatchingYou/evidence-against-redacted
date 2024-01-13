@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "dalekmod:block/storage_vault" },
+        "powered=true": { "model": "dalekmod:block/storage_vault_powered" }
+    }
+}

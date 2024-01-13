@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:travel/visit_classic",
+  "display": {
+    "icon": {
+      "item": "dalekmod:classic_tnt"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.classic_tnt.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.classic_tnt.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "classic_tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:classic_tnt"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "classic_tnt"
+    ]
+  ]
+}

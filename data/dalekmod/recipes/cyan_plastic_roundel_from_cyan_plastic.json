@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "dalekmod:cyan_plastic"
+		}
+	],
+	"result": {
+		"item": "dalekmod:cyan_plastic_roundel"
+	}
+}

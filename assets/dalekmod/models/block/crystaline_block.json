@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "dalekmod:block/crystaline_block_orange_side",
+        "bottom": "dalekmod:block/crystaline_block_orange_bottom",
+        "top": "dalekmod:block/crystaline_block_orange_top",
+        "side": "dalekmod:block/crystaline_block_orange_side"
+    }
+}

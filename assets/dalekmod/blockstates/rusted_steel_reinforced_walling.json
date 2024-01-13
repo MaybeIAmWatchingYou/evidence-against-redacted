@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dalekmod:block/rusted_steel_reinforced_walling",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dalekmod:block/rusted_steel_reinforced_walling"
+    },
+    "facing=south": {
+      "model": "dalekmod:block/rusted_steel_reinforced_walling",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dalekmod:block/rusted_steel_reinforced_walling",
+      "y": 270
+    }
+  }
+}

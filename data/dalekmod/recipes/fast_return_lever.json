@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		" S ",
+		"CRC"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:cobblestone"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"R": {
+			"tag": "forge:circuits/basic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:fast_return_lever",
+		"count": 1
+	}
+}

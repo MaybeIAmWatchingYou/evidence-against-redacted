@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PBP"
+	],
+	"key": {
+		"B": {
+			"item": "dalekmod:black_plastic"
+		},
+		"P": {
+			"item": "minecraft:glass_pane"
+		}
+	},
+	"result": {
+		"item": "dalekmod:glasses",
+		"count": 1
+	}
+}

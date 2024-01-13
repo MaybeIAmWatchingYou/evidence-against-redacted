@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:deadlock_door"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_deadlock.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_deadlock.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_deadlock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:deadlock_door"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_deadlock"
+    ]
+  ]
+}

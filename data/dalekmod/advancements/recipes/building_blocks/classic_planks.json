@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_cw": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:classic_log"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:classic_planks"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_cw",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:classic_planks"
+		]
+	}
+}

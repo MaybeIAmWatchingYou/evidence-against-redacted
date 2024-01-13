@@ -1,0 +1,15 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_door"
+		},
+		{
+			"item": "dalekmod:scorched_white_quartz_roundel"
+		}
+	],
+	"result": {
+		"item": "dalekmod:roundel_door",
+		"nbt": "{BlockEntityTag:{id:\"dalekmod:roundel_door\",blockstate:{Name:\"dalekmod:scorched_white_quartz_roundel\"},blockstate_top:{Name:\"dalekmod:scorched_smooth_quartz\"}}}"
+	}
+}

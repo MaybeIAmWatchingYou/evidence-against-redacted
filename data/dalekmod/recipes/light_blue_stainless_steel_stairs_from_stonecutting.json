@@ -1,0 +1,8 @@
+{
+		"type": "minecraft:stonecutting",
+		"ingredient": {
+				"item": "dalekmod:light_blue_stainless_steel"
+		},
+		"result": "dalekmod:light_blue_stainless_steel_stairs",
+		"count": 1
+}

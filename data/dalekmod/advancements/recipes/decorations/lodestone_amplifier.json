@@ -1,0 +1,28 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_lodestone_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:lodestone"
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:lodestone_amplifier"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lodestone_recipe",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:lodestone_amplifier"
+		]
+	}
+}

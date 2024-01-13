@@ -1,0 +1,97 @@
+{
+	"credit": "Made by rainbowdestiny",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "dalekmod:item/wooden_cane_tex",
+		"particle": "dalekmod:item/wooden_cane"
+	},
+	"elements": [
+		{
+			"name": "Bottom",
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 12, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 1, 12], "texture": "#0"},
+				"up": {"uv": [3, 9, 2, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Wrap",
+			"from": [7.3, 5.3, 7.3],
+			"to": [8.7, 10.7, 8.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [1, 0, 2.75, 7], "texture": "#0"},
+				"east": {"uv": [7, 0, 9, 7], "texture": "#0"},
+				"south": {"uv": [5, 0, 7, 7], "texture": "#0"},
+				"west": {"uv": [2.75, 0, 5, 7], "texture": "#0"},
+				"up": {"uv": [3, 9, 1, 7], "texture": "#0"},
+				"down": {"uv": [3, 7, 1, 9], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7.5, 12, 6.5],
+			"to": [8.5, 13, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [9, 0, 10, 1], "texture": "#0"},
+				"east": {"uv": [9, 0, 14, 1], "texture": "#0"},
+				"south": {"uv": [13, 0, 14, 1], "texture": "#0"},
+				"west": {"uv": [9, 0, 14, 1], "texture": "#0"},
+				"up": {"uv": [14, 1, 9, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [14, 0, 9, 1], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [66.25, 0, 0],
+			"translation": [-0.25, -1.75, -5.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [66.25, 0, 0],
+			"translation": [-0.25, -1.75, -5.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -5.5, -9],
+			"translation": [-1, 1.5, 1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -5.5, -9],
+			"translation": [-1, 1.5, 1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"rotation": [-90, 90, 0],
+			"translation": [-0.5, -3, 3]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 1.25, 0]
+		},
+		"head": {
+			"rotation": [0, 0, 90],
+			"translation": [7, 7, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "Cane",
+			"origin": [16, 8, 16],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sugar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:sugar"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:jelly_babies"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sugar",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:jelly_babies"
+		]
+	}
+}

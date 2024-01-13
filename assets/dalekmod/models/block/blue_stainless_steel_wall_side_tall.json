@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "dalekmod:block/blue_stainless_steel"
+  }
+}

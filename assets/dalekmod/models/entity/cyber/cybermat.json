@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "dalekmod:entity/cyber/cybermat_closed",
+	"texture_width": 32,
+	"texture_height": 32,
+	"scale": 1,
+	"groups": [
+		{
+			"group_name": "head",
+			"pivot": [0,22,-2],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [4,4,4],
+					"origin": [-2,-2,-4],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [10,11],
+					"size": [1,3,4],
+					"origin": [-0.5,-3,-3],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "body",
+			"pivot": [0,21.75,0.5],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,8],
+					"size": [3,3,4],
+					"origin": [-1.5,-0.75,-2.5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,11],
+					"size": [0,2,4],
+					"origin": [0,-1.75,-1.5],
+					"inflate": 0.01,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "tail",
+			"pivot": [0,23,2],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [12,4],
+					"size": [1,2,4],
+					"origin": [-0.5,-1,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

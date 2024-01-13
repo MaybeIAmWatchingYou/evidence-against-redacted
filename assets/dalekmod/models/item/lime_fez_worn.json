@@ -1,0 +1,6 @@
+{
+  "parent": "dalekmod:item/fez_item",
+  "textures": {
+		"particle": "dalekmod:item/lime_fez_tex"
+  }
+}

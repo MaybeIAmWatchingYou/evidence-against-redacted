@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:root",
+  "display": {
+    "icon": {
+      "item": "dalekmod:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_steel.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_steel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:steel_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_steel"
+    ]
+  ]
+}

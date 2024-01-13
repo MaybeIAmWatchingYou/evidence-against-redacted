@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:kaletite_brick",
+		"dalekmod:ashy_kaletite_brick",
+		"dalekmod:chiseled_kaletite_brick",
+		"dalekmod:cracked_kaletite_brick"
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "dalekmod:tardis_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmodtravels.root.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmodtravels.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "dalekmod:textures/block/tardis_plant.png"
+	},
+	"criteria": {
+		"enter_tardis": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "dalekmod:tardis"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"enter_tardis"
+		]
+	]
+}

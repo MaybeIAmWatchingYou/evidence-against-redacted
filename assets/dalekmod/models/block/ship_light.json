@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dalekmod:block/ship_light_top",
+    "side": "dalekmod:block/ship_light_side"
+  }
+}

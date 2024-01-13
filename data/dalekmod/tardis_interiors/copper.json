@@ -1,0 +1,238 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [9.5, 21, 23.5],
+	"interiorName": "Police Box Copper",
+	"interiorFile": "dalekmod:copper",
+	"previewImage": "dalekmod:textures/gui/interior_selection/copper.png",
+	"xOffset": 0,
+	"yOffset": -2,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "minecraft:orange_terracotta",
+				"quantity": 384
+			},
+			{
+				"item": "minecraft:stripped_oak_log",
+				"quantity": 298
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic",
+				"quantity": 477
+			},
+			{
+				"item": "dalekmod:yellow_smooth_plastic",
+				"quantity": 239
+			},
+			{
+				"item": "minecraft:quartz_slab",
+				"quantity": 105
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic_stairs",
+				"quantity": 254
+			},
+			{
+				"item": "minecraft:quartz_block",
+				"quantity": 74
+			},
+			{
+				"item": "minecraft:smooth_red_sandstone_slab",
+				"quantity": 91
+			},
+			{
+				"item": "minecraft:stripped_birch_wood",
+				"quantity": 121
+			},
+			{
+				"item": "dalekmod:orange_smooth_plastic",
+				"quantity": 119
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic_slab",
+				"quantity": 86
+			},
+			{
+				"item": "dalekmod:plated_stainless_steel",
+				"quantity": 121
+			},
+			{
+				"item": "dalekmod:yellow_smooth_plastic_slab",
+				"quantity": 118
+			},
+			{
+				"item": "dalekmod:black_plated_stainless_steel",
+				"quantity": 44
+			},
+			{
+				"item": "minecraft:redstone_lamp",
+				"quantity": 22
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 32
+			},
+			{
+				"item": "minecraft:spruce_stairs",
+				"quantity": 44
+			},
+			{
+				"item": "minecraft:terracotta",
+				"quantity": 24
+			},
+			{
+				"item": "minecraft:smooth_red_sandstone",
+				"quantity": 13
+			},
+			{
+				"item": "dalekmod:ship_light",
+				"quantity": 36
+			},
+			{
+				"item": "dalekmod:deadlock_door",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:spruce_slab",
+				"quantity": 9
+			},
+			{
+				"item": "minecraft:acacia_trapdoor",
+				"quantity": 5
+			},
+			{
+				"item": "minecraft:stone_stairs",
+				"quantity": 13
+			},
+			{
+				"item": "minecraft:white_concrete",
+				"quantity": 5
+			},
+			{
+				"item": "dalekmod:stainless_steel_stairs",
+				"quantity": 10
+			},
+			{
+				"item": "dalekmod:green_stainless_steel_slab",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:brown_banner",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:spruce_trapdoor",
+				"quantity": 12
+			},
+			{
+				"item": "dalekmod:refined_dalekanium_block",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:cyan_tube_rotor",
+				"quantity": 3
+			},
+			{
+				"item": "minecraft:birch_stairs",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:birch_planks",
+				"quantity": 6
+			},
+			{
+				"item": "minecraft:dark_oak_slab",
+				"quantity": 6
+			},
+			{
+				"item": "minecraft:spruce_fence",
+				"quantity": 3
+			},
+			{
+				"item": "minecraft:birch_fence",
+				"quantity": 6
+			},
+			{
+				"item": "minecraft:black_terracotta",
+				"quantity": 9
+			},
+			{
+				"item": "dalekmod:yellow_smooth_plastic_stairs",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:smooth_red_sandstone_stairs",
+				"quantity": 46
+			},
+			{
+				"item": "minecraft:stone_slab",
+				"quantity": 19
+			},
+			{
+				"item": "minecraft:dark_oak_fence",
+				"quantity": 13
+			},
+			{
+				"item": "minecraft:birch_slab",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:acacia_button",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:stone",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:blackstone_wall",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:police_box_door",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			}
+		]
+	}
+}

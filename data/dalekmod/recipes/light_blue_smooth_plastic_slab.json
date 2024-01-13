@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_smooth_plastic_slab_crafted",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:light_blue_smooth_plastic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:light_blue_smooth_plastic_slab",
+		"count": 6
+	}
+}

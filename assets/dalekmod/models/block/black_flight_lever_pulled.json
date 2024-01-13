@@ -1,0 +1,7 @@
+{
+	"parent": "dalekmod:block/flight_lever_pulled",
+	"textures": {
+       "0": "dalekmod:block/tardis_flight_lever_black",
+		"particle": "dalekmod:block/tardis_flight_lever_black"
+	}
+}

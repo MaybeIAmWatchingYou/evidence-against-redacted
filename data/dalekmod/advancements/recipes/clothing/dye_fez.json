@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_fez"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_fez"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:black_fez_dye",
+			"dalekmod:brown_fez_dye",
+			"dalekmod:blue_fez_dye",
+			"dalekmod:cyan_fez_dye",
+			"dalekmod:gray_fez_dye",
+			"dalekmod:green_fez_dye",
+			"dalekmod:light_blue_fez_dye",
+			"dalekmod:light_gray_fez_dye",
+			"dalekmod:lime_fez_dye",
+			"dalekmod:magenta_fez_dye",
+			"dalekmod:orange_fez_dye",
+			"dalekmod:pink_fez_dye",
+			"dalekmod:purple_fez_dye",
+			"dalekmod:red_fez_dye",
+			"dalekmod:yellow_fez_dye"
+		]
+	}
+}

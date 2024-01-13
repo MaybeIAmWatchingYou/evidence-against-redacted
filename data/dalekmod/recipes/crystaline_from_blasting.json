@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "dalekmod:crystaline_ore"
+	},
+	"result": "dalekmod:crystaline",
+	"experience": 0.7,
+	"cookingtime": 100
+}

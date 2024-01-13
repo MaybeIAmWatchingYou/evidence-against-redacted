@@ -1,0 +1,21 @@
+{
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+				" XX",
+				" XX",
+				"#  "
+		],
+		"key": {
+				"X": {
+						"tag": "forge:ingots/refined_dalekanium"
+				},
+				"#": {
+						"tag": "forge:rods/steel"
+				}
+		},
+		"result":
+		{
+				"item": "dalekmod:refined_dalekanium_mace",
+				"count": 1
+		}
+}

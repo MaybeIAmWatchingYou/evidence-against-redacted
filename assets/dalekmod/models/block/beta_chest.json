@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "dalekmod:block/beta_chest_top",
+    "front": "dalekmod:block/beta_chest_front",
+    "side": "dalekmod:block/beta_chest_side"
+  }
+}

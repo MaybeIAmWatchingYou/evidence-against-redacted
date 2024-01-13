@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_artron",
+  "display": {
+    "icon": {
+      "item": "dalekmod:tardis_core"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_core.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_core.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:tardis_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_core"
+    ]
+  ]
+}

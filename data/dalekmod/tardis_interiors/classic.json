@@ -1,0 +1,130 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [16, 20, 22.5],
+	"interiorName": "Police Box Classical",
+	"interiorFile": "dalekmod:classic",
+	"previewImage": "dalekmod:textures/gui/interior_selection/classic.png",
+	"xOffset": 0,
+	"yOffset": -2,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "dalekmod:light_gray_smooth_plastic",
+				"quantity": 409
+			},
+			{
+				"item": "dalekmod:white_smooth_plastic",
+				"quantity": 166
+			},
+			{
+				"item": "minecraft:quartz_pillar",
+				"quantity": 156
+			},
+			{
+				"item": "dalekmod:yellow_quartz_roundel",
+				"quantity": 374
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic",
+				"quantity": 16
+			},
+			{
+				"item": "dalekmod:light_gray_smooth_plastic_slab",
+				"quantity": 106
+			},
+			{
+				"item": "minecraft:smooth_quartz_stairs",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:smooth_quartz",
+				"quantity": 5
+			},
+			{
+				"item": "minecraft:stone",
+				"quantity": 34
+			},
+			{
+				"item": "dalekmod:white_quartz_roundel",
+				"quantity": 10
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:black_wool",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:roundel_door",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 54
+			},
+			{
+				"item": "dalekmod:plated_stainless_steel",
+				"quantity": 2
+			},
+			{
+				"item": "dalekmod:stainless_steel_slab",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 6
+			},
+			{
+				"item": "minecraft:smooth_quartz_slab",
+				"quantity": 146
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:white_glass_rotor",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:polished_blackstone_button",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:ship_light",
+				"quantity": 1
+			}
+		]
+	}
+}

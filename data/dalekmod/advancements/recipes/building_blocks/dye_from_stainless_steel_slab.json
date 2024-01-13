@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_base": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:stainless_steel_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_base"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_stainless_steel_slab_from_dye",
+			"dalekmod:orange_stainless_steel_slab_from_dye",
+			"dalekmod:magenta_stainless_steel_slab_from_dye",
+			"dalekmod:light_blue_stainless_steel_slab_from_dye",
+			"dalekmod:yellow_stainless_steel_slab_from_dye",
+			"dalekmod:lime_stainless_steel_slab_from_dye",
+			"dalekmod:pink_stainless_steel_slab_from_dye",
+			"dalekmod:cyan_stainless_steel_slab_from_dye",
+			"dalekmod:purple_stainless_steel_slab_from_dye",
+			"dalekmod:blue_stainless_steel_slab_from_dye",
+			"dalekmod:green_stainless_steel_slab_from_dye",
+			"dalekmod:red_stainless_steel_slab_from_dye",
+			"dalekmod:black_stainless_steel_slab_from_dye"
+		]
+	}
+}

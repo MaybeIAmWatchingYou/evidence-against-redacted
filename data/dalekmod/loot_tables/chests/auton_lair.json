@@ -1,0 +1,54 @@
+{
+   "type":"minecraft:block",
+   "pools":[
+      {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 0.0,
+         "entries":[
+            {
+               "type":"item",
+               "name":"dalekmod:plastic_chunk",
+               "weight":10,
+               "functions":[
+                  {
+                     "function":"set_count",
+                     "count":{
+                        "min":1,
+                        "max":15
+                     }
+                  }
+               ]
+            },
+            {
+               "type":"item",
+               "name":"dalekmod:white_plastic",
+               "weight":5,
+               "functions":[
+                  {
+                     "function":"set_count",
+                     "count":1
+                  }
+               ]
+            },
+            {
+               "type":"item",
+               "name":"minecraft:redstone",
+               "weight":3,
+               "functions":[
+                  {
+                     "function":"set_count",
+                     "count":{
+                        "min":1,
+                        "max":3
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

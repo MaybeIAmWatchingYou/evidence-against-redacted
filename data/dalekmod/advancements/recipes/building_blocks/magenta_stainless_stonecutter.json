@@ -1,0 +1,48 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:magenta_stainless_steel"
+					}
+				]
+			}
+		},
+		"has_the_recipe_dp": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:magenta_diamondplated_stainless_steel_from_stainless_steel_stonecutter"
+			}
+		},
+		"has_the_recipe_dpfp": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:magenta_diamondplated_stainless_steel_from_plated_stainless_steel_stonecutter"
+			}
+		},
+		"has_the_recipe_p": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:magenta_plated_stainless_steel"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_steel",
+			"has_the_recipe_dp",
+			"has_the_recipe_dpfp",
+			"has_the_recipe_p"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:magenta_diamondplated_stainless_steel_from_stainless_steel_stonecutter",
+			"dalekmod:magenta_diamondplated_stainless_steel_from_plated_stainless_steel_stonecutter",
+			"dalekmod:magenta_plated_stainless_steel"
+		]
+	}
+}

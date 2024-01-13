@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model made of 4 duplicate models in dalekmod:tileentity/cube.json",
+  "variants": {"": {"model": "minecraft:block/white_concrete"}}
+}

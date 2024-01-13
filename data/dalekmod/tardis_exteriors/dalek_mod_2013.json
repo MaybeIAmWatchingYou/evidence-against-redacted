@@ -1,0 +1,9 @@
+{
+	"name": "dalekmod.tardis.name.dalek_mod_2013",
+	"models": [
+		"dalekmod:models/tileentity/tardis/dalek_mod_2013.json"
+	],
+	"cost": 1000,
+	"unlockable": true,
+	"desc": "dalekmod.tardis.description.dalek_mod_2013"
+}

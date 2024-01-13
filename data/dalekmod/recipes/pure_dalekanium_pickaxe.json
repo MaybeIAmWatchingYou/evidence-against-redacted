@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "dalekmod:refined_dalekanium_pickaxe"
+	},
+	"addition": {
+		"tag": "forge:liquids/dalekanium_concentrate"
+	},
+	"result": {
+		"item": "dalekmod:pure_dalekanium_pickaxe"
+	}
+}

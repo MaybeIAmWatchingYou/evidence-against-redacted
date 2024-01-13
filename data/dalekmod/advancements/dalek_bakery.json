@@ -1,0 +1,88 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:dalek_cookie"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.dalek_bakery.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.dalek_bakery.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"cupcake": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:dalek_cupcake"
+				}
+			}
+		},
+		"donut": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:dalek_donut"
+				}
+			}
+		},
+		"bread": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:dalek_bread"
+				}
+			}
+		},
+		"waffle": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:toasted_dalek_waffle"
+				}
+			}
+		},
+		"cookie": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:dalek_cookie"
+				}
+			}
+		},
+		"jammy": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:jammy_dodger"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"donut"
+		],
+		[
+			"cupcake"
+		],
+		[
+			"bread"
+		],
+		[
+			"waffle"
+		],
+		[
+			"cookie"
+		],
+		[
+			"jammy"
+		]
+	]
+}

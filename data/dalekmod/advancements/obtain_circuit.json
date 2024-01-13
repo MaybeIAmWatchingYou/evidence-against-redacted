@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:root",
+  "display": {
+    "icon": {
+      "item": "dalekmod:circuit"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_circuit.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_circuit.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_circuit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:circuits/basic"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_circuit"
+    ]
+  ]
+}

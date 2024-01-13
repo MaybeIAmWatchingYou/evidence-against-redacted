@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "minecraft:potion"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"tag": "dalekmod:artron"
+		}
+	],
+	"result": {
+		"item": "dalekmod:bubble_shock"
+	}
+}

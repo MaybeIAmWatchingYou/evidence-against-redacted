@@ -1,0 +1,61 @@
+{
+	"parent": "dalekmod:craft_mercury",
+	"display": {
+		"icon": {
+			"item": "dalekmod:fuel_fluid_link"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.craft_links.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.craft_links.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_flight": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:flight_fluid_link"
+					}
+				]
+			}
+		},
+		"craft_fuel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:fuel_fluid_link"
+					}
+				]
+			}
+		},
+		"craft_accuracy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:accuracy_fluid_link"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft_accuracy"
+		],
+		[
+			"craft_flight"
+		],
+		[
+			"craft_fuel"
+		]
+	]
+}

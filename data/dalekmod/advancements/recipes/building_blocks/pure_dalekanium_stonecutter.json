@@ -1,0 +1,48 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:pure_dalekanium_block"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:pure_dalekanium_sheetwall"
+			}
+		},
+		"has_the_recipe_a": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:emblemized_pure_dalekanium_block_from_dalekanium_block_stonecutting"
+			}
+		},
+		"has_the_recipe_b": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:emblemized_pure_dalekanium_block_from_dalekanium_sheetwall_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingot",
+			"has_the_recipe",
+			"has_the_recipe_a",
+			"has_the_recipe_b"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:pure_dalekanium_sheetwall",
+			"dalekmod:emblemized_pure_dalekanium_block_from_dalekanium_block_stonecutting",
+			"dalekmod:emblemized_pure_dalekanium_block_from_dalekanium_sheetwall_stonecutting"
+		]
+	}
+}

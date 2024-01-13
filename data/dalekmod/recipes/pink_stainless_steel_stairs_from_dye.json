@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_stainless_steel_stairs_dyed",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:stainless_steel_stairs"
+		},
+		"X": {
+			"tag": "forge:dyes/pink"
+		}
+	},
+	"result": {
+		"item": "dalekmod:pink_stainless_steel_stairs",
+		"count": 8
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"tag": "forge:ingots/dark_star"
+		}
+	},
+	"result": {
+		"item": "dalekmod:dark_star_alloy",
+		"count": 1
+	}
+}

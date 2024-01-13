@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"ASF",
+		"   "
+	],
+	"key": {
+		"A": {
+			"item": "dalekmod:ars"
+		},
+		"S": {
+			"item": "dalekmod:scanner"
+		},
+		"F": {
+			"item": "dalekmod:fault_locator"
+		}
+	},
+	"result": {
+		"item": "dalekmod:tardis_base",
+		"count": 1
+	}
+}

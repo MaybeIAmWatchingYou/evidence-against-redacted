@@ -1,0 +1,38 @@
+{
+  "parent": "dalekmod:enter_tardis",
+  "display": {
+    "icon": {
+      "item": "dalekmod:lodestone_amplifier"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.use_lodestone_amplifier.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.use_lodestone_amplifier.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "use_lodestone_amplifier": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "dalekmod:lodestone_amplifier"
+          }
+        },
+        "item": {
+          "item": "minecraft:compass"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_lodestone_amplifier"
+    ]
+  ]
+}

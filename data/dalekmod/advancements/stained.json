@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:stainless",
+  "display": {
+    "icon": {
+      "item": "dalekmod:red_stainless_steel"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.stained.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.stained.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stained": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "dalekmod:stained_steel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stained"
+    ]
+  ]
+}

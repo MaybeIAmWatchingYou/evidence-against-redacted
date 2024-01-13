@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_smooth_plastic_stairs_dyed",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:white_smooth_plastic_stairs"
+		},
+		"X": {
+			"tag": "forge:dyes/light_gray"
+		}
+	},
+	"result": {
+		"item": "dalekmod:light_gray_smooth_plastic_stairs",
+		"count": 8
+	}
+}

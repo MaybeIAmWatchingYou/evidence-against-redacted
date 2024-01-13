@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "dalekmod:block/kerblam_box_front",
+        "down": "dalekmod:block/kerblam_box_bottom",
+        "up": "dalekmod:block/kerblam_box_top",
+        "north": "dalekmod:block/kerblam_box_front",
+        "east": "dalekmod:block/kerblam_box_right",
+        "south": "dalekmod:block/kerblam_box_back",
+        "west": "dalekmod:block/kerblam_box_left"
+    }
+}

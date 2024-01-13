@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"tag": "forge:ingots/iron"
+	},
+	"result": "dalekmod:steel_ingot",
+	"experience": 0.7,
+	"cookingtime": 100
+}

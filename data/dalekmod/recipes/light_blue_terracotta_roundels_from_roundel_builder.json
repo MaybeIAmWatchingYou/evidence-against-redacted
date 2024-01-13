@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:light_blue_terracotta"
+		}
+	],
+	"result": {
+		"item": "dalekmod:light_blue_terracotta_roundels"
+	}
+}

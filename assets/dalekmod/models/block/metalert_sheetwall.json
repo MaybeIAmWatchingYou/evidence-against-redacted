@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "dalekmod:block/metalert_block",
+        "side": "dalekmod:block/metalert_sheetwall"
+    }
+}

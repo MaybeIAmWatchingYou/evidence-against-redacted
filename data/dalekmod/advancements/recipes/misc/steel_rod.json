@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:steel_ingot",
+						"count": 2
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:steel_rod"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_iron",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:steel_rod"
+		]
+	}
+}

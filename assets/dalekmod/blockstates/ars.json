@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dalekmod:block/ars", "y": 0},
+    "facing=south": { "model": "dalekmod:block/ars", "y": 180 },
+    "facing=west":  { "model": "dalekmod:block/ars", "y": 270 },
+    "facing=east":  { "model": "dalekmod:block/ars", "y": 90 }
+  }
+}

@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/skaro_dalek_alt",
+   "lightmap": "dalekmod:entity/dalek/skaro_dalek_lightmap_alt",
+   "parent": "dalekmod:models/entity/dalek/default_dalek"
+}

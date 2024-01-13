@@ -1,0 +1,84 @@
+{
+	"texture": "dalekmod:tileentity/tardis/iron_sidrat_capsule",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1.001,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [48,24],
+					"size": [8,32,16],
+					"origin": [8,-32,-8],
+					"inflate": 0.015,
+					"mirror": false
+				},
+				{
+					"uv": [0,24],
+					"size": [8,32,16],
+					"origin": [-16,-32,-8],
+					"inflate": 0.015,
+					"mirror": false
+				},
+				{
+					"uv": [36,72],
+					"size": [16,32,2],
+					"origin": [-8,-32,6],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [16,24],
+					"size": [16,0,16],
+					"origin": [-8,0,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,0],
+					"size": [32,8,16],
+					"origin": [-16,-40,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [80,40],
+					"size": [16,0,16],
+					"origin": [-8,-0.055,-8],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "Door",
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,72],
+					"size": [16,32,2],
+					"origin": [-8,-32,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [64,24],
+					"size": [16,0,16],
+					"origin": [-8,-0.05,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [64,0],
+					"size": [16,0,16],
+					"origin": [-8,-31.99,-8],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

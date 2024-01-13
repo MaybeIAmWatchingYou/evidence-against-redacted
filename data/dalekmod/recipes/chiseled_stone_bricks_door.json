@@ -1,0 +1,15 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_door"
+		},
+		{
+			"item": "minecraft:chiseled_stone_bricks"
+		}
+	],
+	"result": {
+		"item": "dalekmod:roundel_door",
+		"nbt": "{BlockEntityTag:{id:\"dalekmod:roundel_door\",blockstate:{Name:\"minecraft:chiseled_stone_bricks\"},blockstate_top:{Name:\"minecraft:stone\"}}}"
+	}
+}

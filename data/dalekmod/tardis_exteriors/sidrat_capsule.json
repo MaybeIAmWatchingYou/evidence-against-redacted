@@ -1,0 +1,30 @@
+{
+	"name": "dalekmod.tardis.name.sidrat_capsule",
+	"interior": "dalekmod:sidrat_default",
+	"models": [
+		"dalekmod:models/tileentity/tardis/iron_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/green_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/gold_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/orange_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/cyan_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/light_blue_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/magenta_sidrat_capsule.json",
+		"dalekmod:models/tileentity/tardis/pink_sidrat_capsule.json"
+	],
+	"cost": 0,
+	"unlockable": true,
+	"default_exterior": true,
+	"desc": "dalekmod.tardis.description.sidrat_capsule",
+	"sounds": {
+		"open": "dalekmod:tardis.capsule_door_open",
+		"close": "dalekmod:tardis.capsule_door_close"
+	},
+	"hitbox": [[0,0,0,16,32,16]],
+	"hitbox_visual": {
+			"default": [[0,0,0,16,40,16]],
+			"north": [[-8, 0, 0, 24, 40, 16]],
+			"south": [[-8, 0, 0, 24, 40, 16]],
+			"east": [[0, 0, -8, 16, 40, 24]],
+			"west": [[0, 0, -8, 16, 40, 24]]
+	}
+}

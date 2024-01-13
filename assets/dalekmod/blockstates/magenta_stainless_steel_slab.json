@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "dalekmod:block/magenta_stainless_steel_slab"
+        },
+        "type=top": {
+            "model": "dalekmod:block/magenta_stainless_steel_slab_top"
+        },
+        "type=double": {
+            "model": "dalekmod:block/magenta_stainless_steel_slab_double"
+        }
+    }
+}

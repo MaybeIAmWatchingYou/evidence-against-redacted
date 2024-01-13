@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "dalekmod:block/powered_redstone_lamp" }
+    }
+}

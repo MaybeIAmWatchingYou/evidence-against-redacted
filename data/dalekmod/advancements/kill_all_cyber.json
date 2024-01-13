@@ -1,0 +1,70 @@
+{
+	"parent": "dalekmod:kill_cyber",
+	"display": {
+		"icon": {
+			"item": "dalekmod:steel_battleaxe"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.kill_all_cyber.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.kill_all_cyber.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"kill_cyber_cybus": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:cyberman",
+					"nbt": "{CybermanType:0}"
+				}
+			}
+		},
+		"kill_cyber_brain": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:cyberman",
+					"nbt": "{CybermanType:1}"
+				}
+			}
+		},
+		"kill_cyber_es": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:cyberman",
+					"nbt": "{CybermanType:2}"
+				}
+			}
+		},
+		"kill_cyber_esb": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:cyberman",
+					"nbt": "{CybermanType:3}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_cyber_es"
+		],
+		[
+			"kill_cyber_esb"
+		],
+		[
+			"kill_cyber_brain"
+		],
+		[
+			"kill_cyber_cybus"
+		]
+	]
+}

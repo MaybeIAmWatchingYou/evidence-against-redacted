@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "dalekmod:pink_plastic"
+	},
+	"result": "dalekmod:pink_smooth_plastic",
+	"experience": 0.05,
+	"cookingtime": 100
+}

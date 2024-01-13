@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:zeiton_crystal"
+		},
+		{
+			"item": "minecraft:emerald"
+		},
+		{
+			"item": "dalekmod:steel_ingot"
+		}
+	],
+	"result": {
+		"item": "dalekmod:flight_fluid_link"
+	}
+}

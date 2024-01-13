@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"S",
+		"C",
+		"I"
+	],
+	"key": {
+		"S": {
+			"item": "dalekmod:sonic_emitter"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"I": {
+			"tag": "forge:ingots/stainless_steel"
+		}
+	},
+	"result": {
+		"item": "dalekmod:sonic_screwdriver",
+		"count": 1
+	}
+}

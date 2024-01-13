@@ -1,0 +1,48 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_leaf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "minecraft:leaves"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:tea_leaf"
+			}
+		},
+		"has_the_recipe_2": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:tea_leaf_from_blasting"
+			}
+		},
+		"has_the_recipe_3": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:tea_leaf_from_smoking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leaf",
+			"has_the_recipe",
+			"has_the_recipe_2",
+			"has_the_recipe_3"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:tea_leaf",
+			"dalekmod:tea_leaf_from_blasting",
+			"dalekmod:tea_leaf_from_smoking"
+		]
+	}
+}

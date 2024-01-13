@@ -1,0 +1,17 @@
+{
+	"config": {
+		"top_material": {
+			"Properties": {
+				"snowy": "false"
+			},
+			"Name": "dalekmod:classic_grass"
+		},
+		"under_material": {
+			"Name": "dalekmod:classic_dirt"
+		},
+		"underwater_material": {
+			"Name": "dalekmod:classic_sand"
+		}
+	},
+	"type": "minecraft:default"
+}

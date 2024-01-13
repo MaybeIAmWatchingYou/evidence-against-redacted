@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:zeiton_crystal"
+		},
+		{
+			"item": "dalekmod:mercury"
+		},
+		{
+			"item": "dalekmod:steel_ingot"
+		}
+	],
+	"result": {
+		"item": "dalekmod:fuel_fluid_link"
+	}
+}

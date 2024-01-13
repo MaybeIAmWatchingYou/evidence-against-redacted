@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dalekmod:block/rusted_weak_steel_block"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:bubble_wrap"
+		},
+		{
+			"item": "minecraft:tnt"
+		}
+	],
+	"result": {
+		"item": "dalekmod:explosive_bubble_wrap"
+	}
+}

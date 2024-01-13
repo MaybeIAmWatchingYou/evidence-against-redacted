@@ -1,0 +1,6 @@
+{
+  "parent": "dalekmod:block/tube_rotor_horizontal_alt",
+	"textures": {
+		"rotor": "dalekmod:block/yellow_rotor_tube"
+	}
+}

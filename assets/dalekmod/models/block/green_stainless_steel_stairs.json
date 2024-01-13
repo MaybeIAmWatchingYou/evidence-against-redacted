@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "dalekmod:block/green_stainless_steel",
+        "top": "dalekmod:block/green_stainless_steel",
+        "side": "dalekmod:block/green_stainless_steel"
+    }
+}

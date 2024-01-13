@@ -1,0 +1,13 @@
+{
+    "exteriorName":"Wild Police Box",
+    "interiorPath":"dalekmod:tardis_default",
+
+    "modelPath": [
+        "dalekmod:models/tileentity/tardis/wild_police_box.json"
+
+    ],
+    "xpValue":100,
+    "unlockable":false,
+    "isDefaultSelection":false,
+    "desc":"WYLD's TARDIS - WILD (live tennart reactin)"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dalekmod:item/dalekanium_mace"
+  }
+}

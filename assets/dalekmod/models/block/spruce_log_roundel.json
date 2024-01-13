@@ -1,0 +1,7 @@
+{
+    "parent": "dalekmod:block/roundel",
+    "textures": {
+        "main": "dalekmod:block/spruce_log_roundel",
+        "alt": "dalekmod:block/spruce_log_roundel_alt"
+    }
+}

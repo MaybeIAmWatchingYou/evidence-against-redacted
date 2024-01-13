@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:spruce_log"
+		}
+	],
+	"result": {
+		"item": "dalekmod:spruce_log_roundel"
+	}
+}

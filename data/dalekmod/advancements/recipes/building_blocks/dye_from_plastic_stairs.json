@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_base": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_smooth_plastic_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_base"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:orange_smooth_plastic_stairs_from_dye",
+			"dalekmod:magenta_smooth_plastic_stairs_from_dye",
+			"dalekmod:light_blue_smooth_plastic_stairs_from_dye",
+			"dalekmod:yellow_smooth_plastic_stairs_from_dye",
+			"dalekmod:lime_smooth_plastic_stairs_from_dye",
+			"dalekmod:pink_smooth_plastic_stairs_from_dye",
+			"dalekmod:cyan_smooth_plastic_stairs_from_dye",
+			"dalekmod:purple_smooth_plastic_stairs_from_dye",
+			"dalekmod:blue_smooth_plastic_stairs_from_dye",
+			"dalekmod:green_smooth_plastic_stairs_from_dye",
+			"dalekmod:red_smooth_plastic_stairs_from_dye",
+			"dalekmod:black_smooth_plastic_stairs_from_dye",
+			"dalekmod:gray_smooth_plastic_stairs_from_dye",
+			"dalekmod:light_gray_smooth_plastic_stairs_from_dye",
+			"dalekmod:brown_smooth_plastic_stairs_from_dye"
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:stainless_steel_wall",
+		"dalekmod:white_stainless_steel_wall",
+		"dalekmod:orange_stainless_steel_wall",
+		"dalekmod:magenta_stainless_steel_wall",
+		"dalekmod:light_blue_stainless_steel_wall",
+		"dalekmod:yellow_stainless_steel_wall",
+		"dalekmod:lime_stainless_steel_wall",
+		"dalekmod:pink_stainless_steel_wall",
+		"dalekmod:cyan_stainless_steel_wall",
+		"dalekmod:purple_stainless_steel_wall",
+		"dalekmod:blue_stainless_steel_wall",
+		"dalekmod:green_stainless_steel_wall",
+		"dalekmod:red_stainless_steel_wall",
+		"dalekmod:black_stainless_steel_wall",
+		"dalekmod:steel_wall",
+		"dalekmod:rusted_steel_wall"
+	]
+}

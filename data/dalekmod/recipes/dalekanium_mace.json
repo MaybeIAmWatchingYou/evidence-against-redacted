@@ -1,0 +1,21 @@
+{
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+				" XX",
+				" XX",
+				"#  "
+		],
+		"key": {
+				"X": {
+						"tag": "forge:ingots/dalekanium"
+				},
+				"#": {
+						"item": "minecraft:stick"
+				}
+		},
+		"result":
+		{
+				"item": "dalekmod:dalekanium_mace",
+				"count": 1
+		}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ASS",
+		"CTS",
+		"CSS"
+	],
+	"key": {
+		"A": {
+			"item": "dalekmod:artron_fuel_tank"
+		},
+		"C": {
+			"item": "dalekmod:circuit"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		},
+		"T": {
+			"item": "minecraft:chest"
+		}
+	},
+	"result": {
+		"item": "dalekmod:fault_locator",
+		"count": 1
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SDS",
+		"IAI",
+		"SNS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stone"
+		},
+		"I": {
+			"item": "minecraft:iron_bars"
+		},
+		"D": {
+			"item": "minecraft:dragon_breath"
+		},
+		"A": {
+			"item": "dalekmod:artron_cube"
+		},
+		"N": {
+			"item": "minecraft:nether_star"
+		}
+	},
+	"result": {
+		"item": "dalekmod:tardis_core",
+		"count": 1
+	}
+}

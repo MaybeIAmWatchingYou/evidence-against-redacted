@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OOO",
+		"ODO",
+		"ORO"
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"D": {
+			"item": "dalekmod:steel_door"
+		},
+		"R": {
+			"tag": "forge:circuits/basic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:deadlock_door",
+		"count": 1
+	}
+}

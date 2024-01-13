@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_base": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_plastic"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_base"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:orange_plastic",
+			"dalekmod:magenta_plastic",
+			"dalekmod:light_blue_plastic",
+			"dalekmod:yellow_plastic",
+			"dalekmod:lime_plastic",
+			"dalekmod:pink_plastic",
+			"dalekmod:cyan_plastic",
+			"dalekmod:purple_plastic",
+			"dalekmod:blue_plastic",
+			"dalekmod:green_plastic",
+			"dalekmod:red_plastic",
+			"dalekmod:black_plastic",
+			"dalekmod:gray_plastic",
+			"dalekmod:light_gray_plastic",
+			"dalekmod:brown_plastic"
+		]
+	}
+}

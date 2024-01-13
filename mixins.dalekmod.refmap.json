@@ -1,0 +1,72 @@
+{
+  "mappings": {
+    "com/swdteam/mixins/ItemMixin": {
+      "Lnet/minecraft/item/Item;use(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;": "Lnet/minecraft/item/Item;func_77659_a(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;"
+    },
+    "com/swdteam/mixins/MinecraftMixin": {
+      "Lnet/minecraft/client/Minecraft;getSituationalMusic()Lnet/minecraft/client/audio/BackgroundMusicSelector;": "Lnet/minecraft/client/Minecraft;func_238178_U_()Lnet/minecraft/client/audio/BackgroundMusicSelector;"
+    },
+    "com/swdteam/mixins/GameRendererMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/matrix/MatrixStack;)V": "Lnet/minecraft/client/renderer/GameRenderer;func_228378_a_(FJLcom/mojang/blaze3d/matrix/MatrixStack;)V",
+      "Lnet/minecraft/client/renderer/WorldRenderer;renderLevel(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;)V": "Lnet/minecraft/client/renderer/WorldRenderer;func_228426_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;)V"
+    },
+    "com/swdteam/mixins/EntityMixin": {
+      "Lnet/minecraft/entity/Entity;tick()V": "Lnet/minecraft/entity/Entity;func_70071_h_()V"
+    },
+    "com/swdteam/mixins/MovementInputMixin": {
+      "tick": "Lnet/minecraft/util/MovementInputFromOptions;func_225607_a_(Z)V"
+    },
+    "com/swdteam/mixins/ClientPlayBiomeMixin": {
+      "handleLevelChunk(Lnet/minecraft/network/play/server/SChunkDataPacket;)V": "Lnet/minecraft/client/network/play/ClientPlayNetHandler;func_147263_a(Lnet/minecraft/network/play/server/SChunkDataPacket;)V"
+    },
+    "com/swdteam/mixins/CompassItemMixin": {
+      "Lnet/minecraft/item/CompassItem;isFoil(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/item/CompassItem;func_77636_d(Lnet/minecraft/item/ItemStack;)Z",
+      "Lnet/minecraft/item/CompassItem;isLodestoneCompass(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/item/CompassItem;func_234670_d_(Lnet/minecraft/item/ItemStack;)Z",
+      "Lnet/minecraft/item/CompassItem;inventoryTick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V": "Lnet/minecraft/item/CompassItem;func_77663_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V",
+      "Lnet/minecraft/item/CompassItem;getDescriptionId(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;": "Lnet/minecraft/item/CompassItem;func_77667_c(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+      "Lnet/minecraft/item/CompassItem;useOn(Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;": "Lnet/minecraft/item/CompassItem;func_195939_a(Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;"
+    },
+    "com/swdteam/mixins/LightMapMixin": {
+      "Lnet/minecraft/client/renderer/LightTexture;updateLightTexture(F)V": "Lnet/minecraft/client/renderer/LightTexture;func_205106_a(F)V"
+    },
+    "com/swdteam/mixins/RenderPlayerMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/PlayerRenderer;func_225623_a_(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/swdteam/mixins/ItemMixin": {
+        "Lnet/minecraft/item/Item;use(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;": "Lnet/minecraft/item/Item;func_77659_a(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResult;"
+      },
+      "com/swdteam/mixins/MinecraftMixin": {
+        "Lnet/minecraft/client/Minecraft;getSituationalMusic()Lnet/minecraft/client/audio/BackgroundMusicSelector;": "Lnet/minecraft/client/Minecraft;func_238178_U_()Lnet/minecraft/client/audio/BackgroundMusicSelector;"
+      },
+      "com/swdteam/mixins/GameRendererMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/matrix/MatrixStack;)V": "Lnet/minecraft/client/renderer/GameRenderer;func_228378_a_(FJLcom/mojang/blaze3d/matrix/MatrixStack;)V",
+        "Lnet/minecraft/client/renderer/WorldRenderer;renderLevel(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;)V": "Lnet/minecraft/client/renderer/WorldRenderer;func_228426_a_(Lcom/mojang/blaze3d/matrix/MatrixStack;FJZLnet/minecraft/client/renderer/ActiveRenderInfo;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lnet/minecraft/util/math/vector/Matrix4f;)V"
+      },
+      "com/swdteam/mixins/EntityMixin": {
+        "Lnet/minecraft/entity/Entity;tick()V": "Lnet/minecraft/entity/Entity;func_70071_h_()V"
+      },
+      "com/swdteam/mixins/MovementInputMixin": {
+        "tick": "Lnet/minecraft/util/MovementInputFromOptions;func_225607_a_(Z)V"
+      },
+      "com/swdteam/mixins/ClientPlayBiomeMixin": {
+        "handleLevelChunk(Lnet/minecraft/network/play/server/SChunkDataPacket;)V": "Lnet/minecraft/client/network/play/ClientPlayNetHandler;func_147263_a(Lnet/minecraft/network/play/server/SChunkDataPacket;)V"
+      },
+      "com/swdteam/mixins/CompassItemMixin": {
+        "Lnet/minecraft/item/CompassItem;isFoil(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/item/CompassItem;func_77636_d(Lnet/minecraft/item/ItemStack;)Z",
+        "Lnet/minecraft/item/CompassItem;isLodestoneCompass(Lnet/minecraft/item/ItemStack;)Z": "Lnet/minecraft/item/CompassItem;func_234670_d_(Lnet/minecraft/item/ItemStack;)Z",
+        "Lnet/minecraft/item/CompassItem;inventoryTick(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V": "Lnet/minecraft/item/CompassItem;func_77663_a(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V",
+        "Lnet/minecraft/item/CompassItem;getDescriptionId(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;": "Lnet/minecraft/item/CompassItem;func_77667_c(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        "Lnet/minecraft/item/CompassItem;useOn(Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;": "Lnet/minecraft/item/CompassItem;func_195939_a(Lnet/minecraft/item/ItemUseContext;)Lnet/minecraft/util/ActionResultType;"
+      },
+      "com/swdteam/mixins/LightMapMixin": {
+        "Lnet/minecraft/client/renderer/LightTexture;updateLightTexture(F)V": "Lnet/minecraft/client/renderer/LightTexture;func_205106_a(F)V"
+      },
+      "com/swdteam/mixins/RenderPlayerMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/PlayerRenderer;func_225623_a_(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V"
+      }
+    }
+  }
+}

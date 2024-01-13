@@ -1,0 +1,321 @@
+{
+	"parent": "dalekmod:obtain_sonic",
+	"display": {
+		"icon": {
+			"item": "dalekmod:sonic_screwdriver_3"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.obtain_all_casings.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.obtain_all_casings.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_1"
+					}
+				]
+			}
+		},
+		"obtain_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_2"
+					}
+				]
+			}
+		},
+		"obtain_3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_3"
+					}
+				]
+			}
+		},
+		"obtain_4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_4"
+					}
+				]
+			}
+		},
+		"obtain_5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_5"
+					}
+				]
+			}
+		},
+		"obtain_6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_6"
+					}
+				]
+			}
+		},
+		"obtain_7": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_7"
+					}
+				]
+			}
+		},
+		"obtain_8": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_8"
+					}
+				]
+			}
+		},
+		"obtain_basic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_basic"
+					}
+				]
+			}
+		},
+		"obtain_9": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_9"
+					}
+				]
+			}
+		},
+		"obtain_11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_11"
+					}
+				]
+			}
+		},
+		"obtain_12": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_12"
+					}
+				]
+			}
+		},
+		"obtain_13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_13"
+					}
+				]
+			}
+		},
+		"obtain_war": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_war"
+					}
+				]
+			}
+		},
+		"obtain_lipstick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_lipstick"
+					}
+				]
+			}
+		},
+		"obtain_lake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_lake"
+					}
+				]
+			}
+		},
+		"obtain_py_green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_py_green"
+					}
+				]
+			}
+		},
+		"obtain_py_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_py_blue"
+					}
+				]
+			}
+		},
+		"obtain_pen": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_pen"
+					}
+				]
+			}
+		},
+		"obtain_epsilon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_epsilon"
+					}
+				]
+			}
+		},
+		"obtain_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_candy"
+					}
+				]
+			}
+		},
+		"obtain_river": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_river"
+					}
+				]
+			}
+		},
+		"obtain_temporal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_screwdriver_temporal"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_1"
+		],
+		[
+			"obtain_2"
+		],
+		[
+			"obtain_3"
+		],
+		[
+			"obtain_4"
+		],
+		[
+			"obtain_5"
+		],
+		[
+			"obtain_6"
+		],
+		[
+			"obtain_7"
+		],
+		[
+			"obtain_8"
+		],
+		[
+			"obtain_9"
+		],
+		[
+			"obtain_11"
+		],
+		[
+			"obtain_12"
+		],
+		[
+			"obtain_13"
+		],
+		[
+			"obtain_basic"
+		],
+		[
+			"obtain_temporal"
+		],
+		[
+			"obtain_py_blue"
+		],
+		[
+			"obtain_py_green"
+		],
+		[
+			"obtain_pen"
+		],
+		[
+			"obtain_river"
+		],
+		[
+			"obtain_lipstick"
+		],
+		[
+			"obtain_lake"
+		],
+		[
+			"obtain_epsilon"
+		],
+		[
+			"obtain_candy"
+		],
+		[
+			"obtain_war"
+		]
+	]
+}

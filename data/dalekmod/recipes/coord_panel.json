@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"BCT",
+		"SSS"
+	],
+	"key": {
+		"T": {
+			"item": "minecraft:redstone_torch"
+		},
+		"B": {
+			"tag": "minecraft:buttons"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:coord_panel",
+		"count": 1
+	}
+}

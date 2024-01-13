@@ -1,0 +1,6 @@
+{
+    "parent": "dalekmod:block/coord_panel_lit",
+    "textures": {
+        "0": "block/redstone_torch_off"
+    }
+}

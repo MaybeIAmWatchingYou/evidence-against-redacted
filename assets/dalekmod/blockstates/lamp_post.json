@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model in dalekmod:tileentity/lamp_post.json",
+  "variants": {"": {"model": "dalekmod:block/lamp_post"}}
+}

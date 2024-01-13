@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dalekmod:block/pink_plated_stainless_steel"
+    }
+}

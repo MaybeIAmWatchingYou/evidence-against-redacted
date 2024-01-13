@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"RER",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stone"
+		},
+		"R": {
+			"tag": "forge:circuits/basic"
+		},
+		"E": {
+			"item": "minecraft:ender_pearl"
+		}
+	},
+	"result": {
+		"item": "dalekmod:teleport_pad",
+		"count": 1
+	}
+}

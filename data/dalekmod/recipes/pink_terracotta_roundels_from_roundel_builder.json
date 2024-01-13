@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:pink_terracotta"
+		}
+	],
+	"result": {
+		"item": "dalekmod:pink_terracotta_roundels"
+	}
+}

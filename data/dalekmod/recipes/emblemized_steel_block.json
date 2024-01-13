@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "dalekmod:steel_block"
+	},
+	"result": "dalekmod:emblemized_steel_block"
+}

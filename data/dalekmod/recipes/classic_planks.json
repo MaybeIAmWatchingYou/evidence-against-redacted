@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:classic_log"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:classic_planks",
+		"count": 4
+	}
+}

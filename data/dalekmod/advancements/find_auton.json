@@ -1,0 +1,33 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:auton_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.find_auton.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.find_auton.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"find_auton": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "dalekmod:auton_dungeon"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"find_auton"
+		]
+	]
+}

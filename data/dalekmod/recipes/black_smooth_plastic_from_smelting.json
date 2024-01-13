@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "dalekmod:black_plastic"
+	},
+	"result": "dalekmod:black_smooth_plastic",
+	"experience": 0.05,
+	"cookingtime": 100
+}

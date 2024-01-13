@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:cooked_salmon"
+		},
+		{
+			"item": "dalekmod:bowl_of_custard"
+		},
+		{
+			"item": "minecraft:egg"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:fish_finger_and_custard",
+		"count": 2
+	}
+}

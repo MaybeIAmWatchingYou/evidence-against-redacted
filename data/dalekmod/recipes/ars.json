@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SGS",
+		"GDG",
+		"CCC"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:glass"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		},
+		"C": {
+			"item": "dalekmod:circuit"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:ars",
+		"count": 1
+	}
+}

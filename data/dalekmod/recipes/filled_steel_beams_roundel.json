@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "dalekmod:steel_beams"
+		}
+	],
+	"result": {
+		"item": "dalekmod:filled_steel_beams_roundel"
+	}
+}

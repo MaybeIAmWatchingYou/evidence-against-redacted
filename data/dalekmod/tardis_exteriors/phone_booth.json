@@ -1,0 +1,18 @@
+{
+	"name": "dalekmod.tardis.name.phone_booth",
+	"models": [
+		"dalekmod:models/tileentity/tardis/red_phone_booth.json",
+		"dalekmod:models/tileentity/tardis/pink_phone_booth.json",
+		"dalekmod:models/tileentity/tardis/gray_phone_booth.json",
+		"dalekmod:models/tileentity/tardis/black_phone_booth.json"
+	],
+	"cost": 300,
+	"unlockable": true,
+	"desc": "dalekmod.tardis.description.phone_booth",
+	"sounds": {
+		"open": "minecraft:block.wooden_door.open",
+		"close": "minecraft:block.wooden_door.close"
+	},
+	"hitbox": [[0,0,0,16,32,16]],
+	"hitbox_visual": [[-2,0,-2,18,40,18]]
+}

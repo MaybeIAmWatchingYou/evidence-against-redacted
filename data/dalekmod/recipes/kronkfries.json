@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+ "ingredients": [
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:baked_potato"
+		},
+		{
+			"item": "minecraft:baked_potato"
+		}
+	],
+	"result": {
+		"item": "dalekmod:kronkfries",
+		"count": 1
+	}
+}

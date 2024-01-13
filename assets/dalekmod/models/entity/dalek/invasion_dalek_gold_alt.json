@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/invasion_dalek_gold_alt",
+   "lightmap": "dalekmod:entity/dalek/skaro_dalek_lightmap",
+   "parent": "dalekmod:models/entity/dalek/invasion_dalek_alt"
+}

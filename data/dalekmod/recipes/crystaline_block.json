@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CCC",
+		"CCC",
+		"CCC"
+	],
+	"key": {
+		"C": {
+			"tag": "forge:gems/crystaline"
+		}
+	},
+	"result": {
+		"item": "dalekmod:crystaline_block",
+		"count": 1
+	}
+}

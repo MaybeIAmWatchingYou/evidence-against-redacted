@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GGG",
+		"RCR",
+		"SSS"
+	],
+	"key": {
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"G": {
+			"item": "minecraft:glass"
+		},
+		"C": {
+			"item": "dalekmod:circuit"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:chameleon_panel",
+		"count": 1
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		" # ",
+		" # "
+	],
+	"key": {
+		"#": {
+			"tag": "forge:rods/steel"
+		},
+		"X": {
+			"tag": "forge:ingots/refined_dalekanium"
+		}
+	},
+	"result": {
+		"item": "dalekmod:refined_dalekanium_pickaxe"
+	}
+}

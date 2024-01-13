@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GP",
+		"WW",
+		"WW"
+	],
+	"key": {
+		"W": {
+			"tag": "minecraft:planks"
+		},
+		"G": {
+			"item": "minecraft:glass_bottle"
+		},
+		"P": {
+			"item": "minecraft:paper"
+		}
+	},
+	"result": {
+		"item": "dalekmod:engineering_table",
+		"count": 1
+	}
+}

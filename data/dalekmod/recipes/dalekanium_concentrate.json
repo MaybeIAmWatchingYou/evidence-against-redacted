@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:mercury"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "dalekmod:refined_dalekanium_ingot"
+		}
+	],
+	"result": {
+		"item": "dalekmod:dalekanium_concentrate"
+	}
+}

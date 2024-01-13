@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"PCP",
+		"RRR"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:ingots/plastic"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:data_module",
+		"count": 1
+	}
+}

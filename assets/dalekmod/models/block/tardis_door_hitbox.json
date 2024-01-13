@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"all": "dalekmod:block/void",
+		"particle": "dalekmod:block/void"
+	},
+	"elements": [
+		{
+			"from": [16, 16, 16],
+			"to": [0, 0, 0],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"east": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"south": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"west": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#all"}
+			}
+		},
+		{
+			"from": [0,0,0],
+			"to": [16,16,16],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"east": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"south": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"west": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"up": {"uv": [16, 16, 0, 0], "texture": "#all"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#all"}
+			}
+		}
+	]
+}

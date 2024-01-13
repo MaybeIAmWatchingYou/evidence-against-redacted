@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_steel",
+  "display": {
+    "icon": {
+      "item": "dalekmod:stainless_steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.stainless.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.stainless.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stainless": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:stainless_steel_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stainless"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "dalekmod:rusted_steel_block"
+	},
+	"result": "dalekmod:rusted_steel_block_panels"
+}

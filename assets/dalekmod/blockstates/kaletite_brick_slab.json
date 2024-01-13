@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "dalekmod:block/kaletite_brick_slab"
+        },
+        "type=top": {
+            "model": "dalekmod:block/kaletite_brick_slab_top"
+        },
+        "type=double": {
+            "model": "dalekmod:block/kaletite_brick"
+        }
+    }
+}

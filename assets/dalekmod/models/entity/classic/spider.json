@@ -1,0 +1,162 @@
+{
+	"texture": "dalekmod:entity/classic/spider",
+	"texture_width": 64,
+	"texture_height": 32,
+	"scale": 1,
+	"groups": [
+		{
+			"group_name": "head",
+			"pivot": [0,15,-3],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [32,4],
+					"size": [8,8,8],
+					"origin": [-4,-4,-8],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "body0",
+			"pivot": [0,15,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [6,6,6],
+					"origin": [-3,-3,-3],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "body1",
+			"pivot": [0,15,9],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,12],
+					"size": [10,8,12],
+					"origin": [-5,-4,-6],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg0",
+			"pivot": [-4,15,2],
+			"rotation": [0,-45,-45],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-15,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg1",
+			"pivot": [4,15,2],
+			"rotation": [0,45,45],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-1,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg2",
+			"pivot": [-4,15,1],
+			"rotation": [0,-15,-35.002],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-15,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg3",
+			"pivot": [4,15,1],
+			"rotation": [0,15,35.002],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-1,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg4",
+			"pivot": [-4,15,0],
+			"rotation": [0,15,-35.002],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-15,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg5",
+			"pivot": [4,15,0],
+			"rotation": [0,-15,35.002],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-1,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg6",
+			"pivot": [-4,15,-1],
+			"rotation": [0,45,-45],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-15,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leg7",
+			"pivot": [4,15,-1],
+			"rotation": [0,-45,45],
+			"cubes": [
+				{
+					"uv": [18,0],
+					"size": [16,2,2],
+					"origin": [-1,-1,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

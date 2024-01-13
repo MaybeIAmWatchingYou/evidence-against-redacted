@@ -1,0 +1,38 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:cyberman_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.kill_cyber.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.kill_cyber.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"kill_cyber": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:cyberman"
+				}
+			},
+			"killing_blow": {
+				"source_entity": {
+					"type": "minecraft:player"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_cyber"
+		]
+	]
+}

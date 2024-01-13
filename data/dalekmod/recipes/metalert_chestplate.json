@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "dalekmod:dalekanium_chestplate"
+	},
+	"addition": {
+		"tag": "forge:liquids/metalert"
+	},
+	"result": {
+		"item": "dalekmod:metalert_chestplate"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"tag": "forge:gems/sonic"
+	},
+	"result": "dalekmod:refined_sonic_crystal",
+	"experience": 1.5,
+	"cookingtime": 200
+}

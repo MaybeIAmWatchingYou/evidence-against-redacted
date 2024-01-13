@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:stainless_steel_block",
+		"dalekmod:white_stainless_steel",
+		"dalekmod:orange_stainless_steel",
+		"dalekmod:magenta_stainless_steel",
+		"dalekmod:light_blue_stainless_steel",
+		"dalekmod:yellow_stainless_steel",
+		"dalekmod:lime_stainless_steel",
+		"dalekmod:pink_stainless_steel",
+		"dalekmod:cyan_stainless_steel",
+		"dalekmod:purple_stainless_steel",
+		"dalekmod:blue_stainless_steel",
+		"dalekmod:green_stainless_steel",
+		"dalekmod:red_stainless_steel",
+		"dalekmod:black_stainless_steel"
+	]
+}

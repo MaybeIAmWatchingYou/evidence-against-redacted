@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "facing=north,btn_pressed=false,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_unpressed", "y": 0},
+    "facing=south,btn_pressed=false,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_unpressed", "y": 180},
+    "facing=west,btn_pressed=false,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_unpressed", "y": 270},
+    "facing=east,btn_pressed=false,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_unpressed", "y": 90},
+    
+    "facing=north,btn_pressed=true,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_pressed", "y": 0},
+    "facing=south,btn_pressed=true,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_pressed", "y": 180},
+    "facing=west,btn_pressed=true,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_pressed", "y": 270},
+    "facing=east,btn_pressed=true,cartridge=0": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_pressed", "y": 90},
+    
+    "facing=north,btn_pressed=false,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed", "y": 0},
+    "facing=south,btn_pressed=false,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed", "y": 180},
+    "facing=west,btn_pressed=false,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed", "y": 270},
+    "facing=east,btn_pressed=false,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed", "y": 90},
+    
+    "facing=north,btn_pressed=true,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed", "y": 0},
+    "facing=south,btn_pressed=true,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed", "y": 180},
+    "facing=west,btn_pressed=true,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed", "y": 270},
+    "facing=east,btn_pressed=true,cartridge=1": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed", "y": 90},
+    
+    "facing=north,btn_pressed=false,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed_gold", "y": 0},
+    "facing=south,btn_pressed=false,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed_gold", "y": 180},
+    "facing=west,btn_pressed=false,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed_gold", "y": 270},
+    "facing=east,btn_pressed=false,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_unpressed_gold", "y": 90},
+    
+    "facing=north,btn_pressed=true,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed_gold", "y": 0},
+    "facing=south,btn_pressed=true,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed_gold", "y": 180},
+    "facing=west,btn_pressed=true,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed_gold", "y": 270},
+    "facing=east,btn_pressed=true,cartridge=2": { "model": "dalekmod:block/waypoint_panel/waypoint_panel_filled_pressed_gold", "y": 90}
+  }
+}

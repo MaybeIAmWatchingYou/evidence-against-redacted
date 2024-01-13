@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_bubble_wrap": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:bubble_wrap"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bubble_wrap"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:explosive_bubble_wrap"
+		]
+	}
+}

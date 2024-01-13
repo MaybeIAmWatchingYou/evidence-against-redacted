@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:yellow_stainless_steel"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:yellow_stainless_steel_stairs"
+			}
+		},
+		"has_the_recipe_stonecutter": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:yellow_stainless_steel_stairs_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_steel",
+			"has_the_recipe",
+			"has_the_recipe_stonecutter"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:yellow_stainless_steel_stairs",
+			"dalekmod:yellow_stainless_steel_stairs_from_stonecutting"
+		]
+	}
+}

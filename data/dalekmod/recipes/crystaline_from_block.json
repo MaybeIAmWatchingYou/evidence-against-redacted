@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:crystaline_block"
+		}
+	],
+	"result": {
+		"item": "dalekmod:crystaline",
+		"count": 9
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"texture": "dalekmod:tileentity/artron_fuel_tank/artron_fuel_tank_empty",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,40],
+					"size": [16,4,16],
+					"origin": [-8,-4,-8],
+					"inflate": -0.01,
+					"mirror": false
+				},
+				{
+					"uv": [0,0],
+					"size": [16,4,16],
+					"origin": [-8,-24,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,20],
+					"size": [16,4,16],
+					"origin": [-8,-8,-8],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [72,0],
+					"size": [14,12,14],
+					"origin": [-7,-20,-7],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

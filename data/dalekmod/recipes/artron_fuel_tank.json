@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"GBG",
+		"S S"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:glass"
+		},
+		"B": {
+			"item": "minecraft:bucket"
+		},
+		"S": {
+			"item": "dalekmod:steel_ingot"
+		}
+	},
+	"result": {
+		"item": "dalekmod:artron_fuel_tank",
+		"count": 1
+	}
+}

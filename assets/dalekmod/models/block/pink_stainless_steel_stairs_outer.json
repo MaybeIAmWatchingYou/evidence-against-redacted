@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "dalekmod:block/pink_stainless_steel",
+        "top": "dalekmod:block/pink_stainless_steel",
+        "side": "dalekmod:block/pink_stainless_steel"
+    }
+}

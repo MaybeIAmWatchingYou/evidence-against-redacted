@@ -1,0 +1,23 @@
+{
+	"credit": "Made by rainbowdestiny",
+	"texture": "dalekmod:entity/projectile/bullet",
+	"texture_width": 16,
+	"texture_height": 16,
+	"scale": 1,
+	"groups": [
+		{
+			"group_name": "Bullet",
+			"pivot": [0,23,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [2,2,4],
+					"origin": [-1,-1,-2],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

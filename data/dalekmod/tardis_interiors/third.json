@@ -1,0 +1,130 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [16, 20, 21.5],
+	"interiorName": "Police Box 3rd",
+	"interiorFile": "dalekmod:third",
+	"previewImage": "dalekmod:textures/gui/interior_selection/third.png",
+	"xOffset": 0,
+	"yOffset": -2,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "dalekmod:gray_smooth_plastic",
+				"quantity": 537
+			},
+			{
+				"item": "dalekmod:light_gray_smooth_plastic",
+				"quantity": 20
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic_stairs",
+				"quantity": 112
+			},
+			{
+				"item": "minecraft:quartz_pillar",
+				"quantity": 180
+			},
+			{
+				"item": "dalekmod:white_plastic_roundel",
+				"quantity": 419
+			},
+			{
+				"item": "minecraft:smooth_quartz_slab",
+				"quantity": 79
+			},
+			{
+				"item": "dalekmod:white_smooth_plastic",
+				"quantity": 16
+			},
+			{
+				"item": "minecraft:smooth_quartz",
+				"quantity": 16
+			},
+			{
+				"item": "dalekmod:light_box",
+				"quantity": 16
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 40
+			},
+			{
+				"item": "minecraft:white_concrete",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:smooth_quartz_stairs",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:roundel_door",
+				"quantity": 3
+			},
+			{
+				"item": "dalekmod:deadlock_door",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:green_smooth_plastic_stairs",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:green_smooth_plastic_slab",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:ship_light",
+				"quantity": 5
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 6
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:polished_blackstone_button",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:green_glass_rotor",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			}
+		]
+	}
+}

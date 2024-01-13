@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model in dalekmod:tileentity/tardis_door.json",
+  "variants": {"": {"model": "dalekmod:block/police_box_door"}}
+}

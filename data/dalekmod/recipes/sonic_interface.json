@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RRR",
+		"OCO",
+		"SSS"
+	],
+	"key": {
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"O": {
+			"item": "dalekmod:refined_sonic_crystal"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:sonic_interface",
+		"count": 1
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "dalekmod:block/orange_stainless_steel",
+        "side": "dalekmod:block/orange_stainless_steel_slab"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dalekmod:block/teleport_receiver"
+    }
+  }
+}

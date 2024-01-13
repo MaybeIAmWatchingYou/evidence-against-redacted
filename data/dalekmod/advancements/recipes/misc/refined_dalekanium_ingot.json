@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:dalekanium_ingot"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:refined_dalekanium_ingot_from_smelting"
+			}
+		},
+		"has_the_blast_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:refined_dalekanium_ingot_from_blasting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingot",
+			"has_the_recipe",
+			"has_the_blast_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:refined_dalekanium_ingot_from_smelting",
+			"dalekmod:refined_dalekanium_ingot_from_blasting"
+		]
+	}
+}

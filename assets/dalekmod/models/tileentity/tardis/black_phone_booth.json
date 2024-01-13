@@ -1,0 +1,45 @@
+{
+	"credit": "Made by ranafangirl",
+	"texture": "dalekmod:tileentity/tardis/black_phone_booth",
+	"lightmap": "dalekmod:tileentity/tardis/black_phone_booth_lightmap",
+	"alphamap": "generated",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [20,40,20],
+					"origin": [-10,-40,-10],
+					"inflate": -0.01,
+					"mirror": false
+				},
+				{
+					"uv": [79,0],
+					"size": [8,16,5],
+					"origin": [-4,-26.5,4],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "door",
+			"pivot": [7,6.5,-9],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,60],
+					"size": [16,34,2],
+					"origin": [-15,-19.5,-1],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

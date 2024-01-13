@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "dalekmod:block/brown_smooth_plastic",
+        "top": "dalekmod:block/brown_smooth_plastic",
+        "side": "dalekmod:block/brown_smooth_plastic"
+    }
+}

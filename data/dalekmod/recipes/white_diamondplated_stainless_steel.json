@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_stainless_diamondplated_steel",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:diamondplated_stainless_steel"
+		},
+		"X": {
+			"tag": "forge:dyes/white"
+		}
+	},
+	"result": {
+		"item": "dalekmod:white_diamondplated_stainless_steel",
+		"count": 8
+	}
+}

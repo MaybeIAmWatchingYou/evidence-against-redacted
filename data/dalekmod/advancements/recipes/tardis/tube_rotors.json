@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rod": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:end_rod"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_rod"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_tube_rotor",
+			"dalekmod:orange_tube_rotor",
+			"dalekmod:magenta_tube_rotor",
+			"dalekmod:light_blue_tube_rotor",
+			"dalekmod:lime_tube_rotor",
+			"dalekmod:yellow_tube_rotor",
+			"dalekmod:pink_tube_rotor",
+			"dalekmod:gray_tube_rotor",
+			"dalekmod:cyan_tube_rotor",
+			"dalekmod:light_grey_tube_rotor",
+			"dalekmod:purple_tube_rotor",
+			"dalekmod:blue_tube_rotor",
+			"dalekmod:brown_tube_rotor",
+			"dalekmod:green_tube_rotor",
+			"dalekmod:red_tube_rotor",
+			"dalekmod:black_tube_rotor"
+		]
+	}
+}

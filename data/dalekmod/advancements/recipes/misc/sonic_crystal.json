@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_crystal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:sonic_crystal_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:sonic_crystal"
+			}
+		},
+		"has_the_blast_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:sonic_crystal_from_blasting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_crystal",
+			"has_the_recipe",
+			"has_the_blast_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:sonic_crystal",
+			"dalekmod:sonic_crystal_from_blasting"
+		]
+	}
+}

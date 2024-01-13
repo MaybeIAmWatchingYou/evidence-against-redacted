@@ -1,0 +1,78 @@
+{
+	"default_rotation": 180,
+	"door_offset": [ 15.5, 25, 23.5 ],
+	"block_offset": [ 0, -2, 0 ],
+	"name": "dalekmod.interior.name.blockstack_default",
+	"schematic": "dalekmod:blockstack_default",
+	"preview": "dalekmod:textures/gui/interior_selection/blockstack_default.png",
+	"recipe": [
+		{
+			"item": "dalekmod:plastic_chunk",
+			"quantity": 512
+		},
+		{
+			"item": "minecraft:spruce_planks",
+			"quantity": 256
+		},
+		{
+			"item": "minecraft:white_concrete",
+			"quantity": 64
+		},
+		{
+			"item": "dalekmod:stainless_steel_ingot",
+			"quantity": 64
+		},
+		{
+			"item": "minecraft:stone",
+			"quantity": 64
+		},
+		{
+			"item": "minecraft:andesite",
+			"quantity": 32
+		},
+		{
+			"item": "dalekmod:light_box",
+			"quantity": 32
+		},
+		{
+			"item": "dalekmod:ship_light",
+			"quantity": 16
+		},
+		{
+			"item": "dalekmod:coord_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:dimension_selector_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:waypoint_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:chameleon_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:flight_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fast_return_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:scanner",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fault_locator",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:glass_rotor",
+			"quantity": 1
+		}
+	]
+}

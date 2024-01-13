@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "ELE",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "dalekmod:sonic_emitter"
+    },
+    "L": {
+      "item": "minecraft:lodestone"
+    }
+  },
+  "result": {
+    "item": "dalekmod:lodestone_amplifier"
+  }
+}

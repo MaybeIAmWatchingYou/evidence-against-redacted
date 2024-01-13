@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dark": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:dark_star_remnant"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:dark_star_dust"
+			}
+		},
+		"has_the_blast_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:dark_star_dust_from_blasting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dark",
+			"has_the_recipe",
+			"has_the_blast_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:dark_star_dust_from_blasting",
+			"dalekmod:dark_star_dust"
+		]
+	}
+}

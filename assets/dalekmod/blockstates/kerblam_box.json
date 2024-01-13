@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dalekmod:block/kerblam_box", "y": 270},
+    "facing=south": { "model": "dalekmod:block/kerblam_box", "y": 90 },
+    "facing=west":  { "model": "dalekmod:block/kerblam_box", "y": 0 },
+    "facing=east":  { "model": "dalekmod:block/kerblam_box", "y": 180 }
+  }
+}

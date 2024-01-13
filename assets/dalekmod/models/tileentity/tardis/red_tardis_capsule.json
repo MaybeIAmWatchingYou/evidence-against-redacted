@@ -1,0 +1,5 @@
+{
+	"texture": "dalekmod:tileentity/tardis/red_tardis_capsule",
+	"lightmap": "dalekmod:tileentity/tardis/red_tardis_capsule_lightmap",
+	"parent": "dalekmod:models/tileentity/tardis/gray_tardis_capsule"
+}

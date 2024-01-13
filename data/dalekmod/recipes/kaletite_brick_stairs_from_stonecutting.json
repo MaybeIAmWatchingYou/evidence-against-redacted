@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:kaletite_brick"
+	},
+	"result": "dalekmod:kaletite_brick_stairs",
+	"count": 1
+}

@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; no default model, however TARDISes are in dalekmod:tileentity/tardis/",
+  "variants": {"": {"model": "dalekmod:block/tardis"}}
+}

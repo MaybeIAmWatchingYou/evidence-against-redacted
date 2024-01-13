@@ -1,0 +1,10 @@
+{
+	"credit": "Created in Blockbench by dhi_holo (@holo_modeller on Twitter)",
+	"textures": {
+		"4": "dalekmod:block/stainless_steel_rotor_drum",
+		"5": "dalekmod:block/stainless_steel_rotor_drum_top",
+		"7": "dalekmod:block/stainless_steel_rotor_column",
+		"particle": "dalekmod:block/stainless_steel_block"
+	},
+	"parent": "dalekmod:block/steel_rotor"
+}

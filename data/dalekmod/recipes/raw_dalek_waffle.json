@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WE",
+		"SW"
+	],
+	"key": {
+		"W": {
+			"tag": "forge:crops/wheat"
+		},
+		"E": {
+			"tag": "forge:eggs"
+		},
+	"S": {
+		"item": "minecraft:sugar"
+	}
+	},
+	"result": {
+		"item": "dalekmod:raw_dalek_waffle",
+		"count": 1
+	}
+}

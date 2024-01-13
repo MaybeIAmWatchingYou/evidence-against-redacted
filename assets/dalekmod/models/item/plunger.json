@@ -1,0 +1,117 @@
+{
+	"credit": "Made by rainbowdestiny",
+	"texture_size": [8, 8],
+	"textures": {
+		"0": "dalekmod:item/plunger_tex"
+	},
+	"elements": [
+		{
+			"name": "Back",
+			"from": [7, 7, 1.01],
+			"to": [9, 9, 2.01],
+			"faces": {
+				"north": {"uv": [8, 2, 12, 6], "texture": "#0"},
+				"east": {"uv": [6, 2, 8, 6], "texture": "#0"},
+				"south": {"uv": [8, 2, 12, 6], "texture": "#0"},
+				"west": {"uv": [6, 4, 8, 8], "texture": "#0"},
+				"up": {"uv": [6, 2, 8, 6], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 2, 8, 6], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Ball",
+			"from": [7, 7, 8.01],
+			"to": [9, 9, 10.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 15]},
+			"faces": {
+				"north": {"uv": [8, 2, 12, 6], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8, 2, 12, 6], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 2, 12, 6], "texture": "#0"},
+				"west": {"uv": [8, 2, 12, 6], "texture": "#0"},
+				"up": {"uv": [8, 2, 12, 6], "texture": "#0"},
+				"down": {"uv": [10, 2, 12, 6], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Plunge",
+			"from": [6.5, 6.5, 0],
+			"to": [9.5, 9.5, 1],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"south": {"uv": [0, 2, 6, 8], "texture": "#0"},
+				"west": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"up": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Plunge",
+			"from": [6.5, 6.5, 1],
+			"to": [9.5, 9.5, 1],
+			"faces": {
+				"north": {"uv": [0, 2, 6, 8], "texture": "#0"},
+				"east": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"south": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"up": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Plunge",
+			"from": [9.5, 9.5, 1],
+			"to": [6.5, 6.5, 0],
+			"faces": {
+				"north": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"south": {"uv": [14, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [6, 2, 8, 8], "texture": "#0"},
+				"up": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6, 2, 8, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pole",
+			"from": [7.5, 7.5, 2],
+			"to": [8.5, 8.5, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 2], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 14, 2], "texture": "#0"},
+				"up": {"uv": [14, 0, 0, 2], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 14, 2], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [5.5, 0.25, 6.5],
+			"scale": [2.57, 2.57, 2.57]
+		},
+		"firstperson_lefthand": {
+			"translation": [5.5, 0.25, 6.5],
+			"scale": [2.57, 2.57, 2.57]
+		},
+		"ground": {
+			"translation": [0, -2, 4.75]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 38, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, -1, 0]
+		}
+	}
+}

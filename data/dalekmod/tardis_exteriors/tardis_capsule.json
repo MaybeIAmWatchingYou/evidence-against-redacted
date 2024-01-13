@@ -1,0 +1,24 @@
+{
+	"name": "dalekmod.tardis.name.tardis_capsule",
+	"interior": "dalekmod:tardis_default",
+	"models": [
+		"dalekmod:models/tileentity/tardis/gray_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/black_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/white_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/brown_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/green_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/blue_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/purple_tardis_capsule.json",
+		"dalekmod:models/tileentity/tardis/red_tardis_capsule.json"
+	],
+	"cost": 0,
+	"unlockable": true,
+	"default_exterior": true,
+	"desc": "dalekmod.tardis.description.tardis_capsule",
+	"sounds": {
+		"open": "minecraft:block.iron_door.open",
+		"close": "minecraft:block.iron_door.open"
+	},
+	"hitbox": [[0,0,0,16,32,16]],
+	"hitbox_visual": [[0,0,0,16,40,16]]
+}

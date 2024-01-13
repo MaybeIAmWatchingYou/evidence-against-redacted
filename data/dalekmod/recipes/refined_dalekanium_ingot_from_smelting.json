@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"tag": "forge:ingots/dalekanium"
+	},
+	"result": "dalekmod:refined_dalekanium_ingot",
+	"experience": 3,
+	"cookingtime": 800
+}

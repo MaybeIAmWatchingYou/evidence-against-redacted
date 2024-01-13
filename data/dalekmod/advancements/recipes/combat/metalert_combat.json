@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_metalert": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:metalert"
+					}
+				]
+			}
+		},
+		"has_the_sword_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:metalert_sword"
+			}
+		},
+		"has_the_mace_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:metalert_mace"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_metalert",
+			"has_the_sword_recipe",
+			"has_the_mace_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:metalert_sword",
+			"dalekmod:metalert_mace"
+		]
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dalekmod:block/lodestone_amplifier_top",
+    "side": "dalekmod:block/lodestone_amplifier_side"
+  }
+}

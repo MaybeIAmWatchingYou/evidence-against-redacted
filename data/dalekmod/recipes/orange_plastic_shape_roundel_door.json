@@ -1,0 +1,15 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_door"
+		},
+		{
+			"item": "dalekmod:orange_plastic_shape_roundel"
+		}
+	],
+	"result": {
+		"item": "dalekmod:roundel_door",
+		"nbt": "{BlockEntityTag:{id:\"dalekmod:roundel_door\",blockstate:{Name:\"dalekmod:orange_plastic_shape_roundel\"},blockstate_top:{Name:\"dalekmod:orange_smooth_plastic\"}}}"
+	}
+}

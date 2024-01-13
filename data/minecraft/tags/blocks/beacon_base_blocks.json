@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:classic_iron",
+		"dalekmod:classic_gold",
+		"dalekmod:steel_block",
+		"#dalekmod:diamond_plated_steel",
+		"#dalekmod:plated_steel",
+		"#dalekmod:stainless_steel",
+		"#dalekmod:dalekanium",
+		"dalekmod:metalert_block",
+		"dalekmod:crystaline_block",
+		"dalekmod:brass_block",
+		"dalekmod:zeiton_block",
+		"dalekmod:dark_star_alloy"
+	]
+}

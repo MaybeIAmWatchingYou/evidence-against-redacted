@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_resource": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:tardis_core"
+					},
+					{
+						"item": "dalekmod:tardis_panels"
+					},
+					{
+						"item": "dalekmod:tardis_base"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:tardis_plant"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_resource",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:tardis_plant"
+		]
+	}
+}

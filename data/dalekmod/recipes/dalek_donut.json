@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"SBS",
+		" S "
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bread"
+		},
+		"S": {
+			"item": "minecraft:sugar"
+		}
+	},
+	"result": {
+		"item": "dalekmod:dalek_donut",
+		"count": 4
+	}
+}

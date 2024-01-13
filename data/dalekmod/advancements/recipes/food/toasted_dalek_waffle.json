@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dalek_waffle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:raw_dalek_waffle"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:toasted_dalek_waffle"
+			}
+		},
+		"has_the_recipe_campfire": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:toasted_dalek_waffle_from_campfire_cooking"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dalek_waffle",
+			"has_the_recipe",
+			"has_the_recipe_campfire"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:toasted_dalek_waffle",
+			"dalekmod:toasted_dalek_waffle_from_campfire_cooking"
+		]
+	}
+}

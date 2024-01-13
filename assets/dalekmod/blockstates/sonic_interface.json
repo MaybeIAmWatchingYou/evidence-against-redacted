@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dalekmod:block/sonic_interface", "y": 0},
+    "facing=south": { "model": "dalekmod:block/sonic_interface", "y": 180 },
+    "facing=west":  { "model": "dalekmod:block/sonic_interface", "y": 270 },
+    "facing=east":  { "model": "dalekmod:block/sonic_interface", "y": 90 }
+  }
+}

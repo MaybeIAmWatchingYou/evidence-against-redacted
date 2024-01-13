@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; models in dalekmod:tileentity/artron_fuel_tank/",
+  "variants": {"": {"model": "dalekmod:block/artron_fuel_tank"}}
+}

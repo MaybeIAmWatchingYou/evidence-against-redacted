@@ -1,0 +1,50 @@
+{
+	"default_rotation": 180,
+	"door_offset": [ 16, 20, 22 ],
+	"block_offset": [ 0, -2, 0 ],
+	"name": "dalekmod.interior.name.template",
+	"schematic": "dalekmod:template",
+	"preview": "dalekmod:textures/gui/interior_selection/template.png",
+	"recipe": [
+		{
+			"item": "minecraft:stone",
+			"quantity": 64
+		},
+		{
+			"item": "dalekmod:coord_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:dimension_selector_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:waypoint_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:chameleon_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:flight_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fast_return_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:scanner",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fault_locator",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:glass_rotor",
+			"quantity": 1
+		}
+	]
+}

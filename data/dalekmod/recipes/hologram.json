@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CEC",
+		"SSS"
+	],
+	"key": {
+		"E": {
+			"item": "dalekmod:sonic_emitter"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:hologram",
+		"count": 1
+	}
+}

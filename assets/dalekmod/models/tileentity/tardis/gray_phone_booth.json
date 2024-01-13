@@ -1,0 +1,103 @@
+{
+	"credit": "Made by ranafangirl",
+	"texture": "dalekmod:tileentity/tardis/gray_phone_booth",
+	"lightmap": "dalekmod:tileentity/tardis/gray_phone_booth_lightmap",
+	"alphamap": "generated",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [20,40,20],
+					"origin": [-10,-40,-10],
+					"inflate": -0.01,
+					"mirror": false
+				},
+				{
+					"uv": [20,0],
+					"size": [20,0,20],
+					"origin": [-10,-2,-10],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "doorRight",
+			"pivot": [-7,4,-10],
+			"rotation": [0,0,0],
+			"children": [
+				{
+					"group_name": "doorLeft",
+					"pivot": [7,0,2],
+					"rotation": [0,0,0],
+					"cubes": [
+						{
+							"uv": [20,60],
+							"size": [7,33,2],
+							"origin": [0,-15,-2],
+							"inflate": -0.01,
+							"mirror": false
+						}
+					]
+				}
+			],
+			"cubes": [
+				{
+					"uv": [0,60],
+					"size": [7,33,2],
+					"origin": [0,-15,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "bone",
+			"pivot": [7,2,7],
+			"rotation": [0,-45,0],
+			"cubes": [
+				{
+					"uv": [102,0],
+					"size": [8,16,5],
+					"origin": [-4,-7,-5],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "bone2",
+			"pivot": [0,24,0],
+			"rotation": [0,45,0],
+			"cubes": [
+				{
+					"uv": [0,121],
+					"size": [22,7,0],
+					"origin": [-11,-47,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "bone3",
+			"pivot": [0,24,0],
+			"rotation": [0,-45,0],
+			"cubes": [
+				{
+					"uv": [0,121],
+					"size": [22,7,0],
+					"origin": [-11,-47,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

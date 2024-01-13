@@ -1,0 +1,36 @@
+{
+  "parent": "dalekmod:obtain_roundel_door",
+  "display": {
+    "icon": {
+      "item": "dalekmod:roundel_door"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_roundel_door_recursion.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_roundel_door_recursion.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "obtain_roundel_door_recursion": {
+     "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:roundel_door",
+			"nbt": "{BlockEntityTag:{id:\"dalekmod:roundel_door\",blockstate:{Name:\"thedalekmod:intentional_error\"},blockstate_top:{Name:\"thedalekmod:intentional_error\"}}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_roundel_door_recursion"
+    ]
+  ]
+}

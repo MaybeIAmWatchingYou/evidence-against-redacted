@@ -1,0 +1,49 @@
+{
+	"credit": "Made by rainbowdestiny",
+	"texture": "dalekmod:tileentity/tardis_plant/tardis_plant_stage6",
+	"lightmap": "dalekmod:tileentity/tardis_plant/tardis_plant_stage6_lightmap",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,32],
+					"size": [16,32,16],
+					"origin": [-8,-32,-8],
+					"inflate": -0.01,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,-45,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [16,32,0],
+					"origin": [-8,-32,0],
+					"inflate": 0,
+					"mirror": true
+				}
+			]
+		},
+		{
+			"pivot": [0,24,0],
+			"rotation": [-180,-45,180],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [16,32,0],
+					"origin": [-8,-32,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

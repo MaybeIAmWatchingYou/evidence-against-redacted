@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"tag": "minecraft:leaves"
+	},
+	"result": "dalekmod:tea_leaf",
+	"experience": 0.8,
+	"cookingtime": 80
+}

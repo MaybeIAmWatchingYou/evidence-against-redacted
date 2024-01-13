@@ -1,0 +1,60 @@
+{
+	"texture": "dalekmod:tileentity/police_box_door",
+	"lightmap": "dalekmod:tileentity/police_box_door_lightmap",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"group_name": "door",
+			"pivot": [0,3,-6],
+			"rotation": [0,0,0],
+			"children": [
+				{
+					"group_name": "RightDoor",
+					"pivot": [8,-11,-2],
+					"rotation": [0,0,0],
+					"cubes": [
+						{
+							"uv": [0,35],
+							"size": [8,32,2],
+							"origin": [-8,0,0],
+							"inflate": 0,
+							"mirror": false
+						},
+						{
+							"uv": [38,0],
+							"size": [4,6,2],
+							"origin": [-6,9,-2],
+							"inflate": 0,
+							"mirror": false
+						}
+					]
+				},
+				{
+					"group_name": "LeftDoor",
+					"pivot": [-8,-11,-2],
+					"rotation": [0,0,0],
+					"cubes": [
+						{
+							"uv": [20,35],
+							"size": [8,32,2],
+							"origin": [0,0,0],
+							"inflate": 0,
+							"mirror": false
+						}
+					]
+				}
+			],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [16,32,3],
+					"origin": [-8,-11,-2],
+					"inflate": 0.01,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

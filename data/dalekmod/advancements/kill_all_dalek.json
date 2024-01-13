@@ -1,0 +1,397 @@
+{
+	"parent": "dalekmod:kill_dalek",
+	"display": {
+		"icon": {
+			"item": "dalekmod:special_weapons_dalek_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.kill_all_dalek.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.kill_all_dalek.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"kill_dalek_aid": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_invasion_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_aidb": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_invasion_dalek_black\"}"
+				}
+			}
+		},
+		"kill_dalek_aidg": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_invasion_dalek_gold\"}"
+				}
+			}
+		},
+		"kill_dalek_aidr": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_invasion_dalek_red\"}"
+				}
+			}
+		},
+		"kill_dalek_asd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_skaro_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_asdb": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_skaro_dalek_black\"}"
+				}
+			}
+		},
+		"kill_dalek_asdr": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"advanced_skaro_dalek_red\"}"
+				}
+			}
+		},
+		"kill_dalek_cd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"chocolate_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_cdd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"chocolate_dalek_dark\"}"
+				}
+			}
+		},
+		"kill_dalek_cdm": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"chocolate_dalek_matcha\"}"
+				}
+			}
+		},
+		"kill_dalek_cds": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"chocolate_dalek_strawberry\"}"
+				}
+			}
+		},
+		"kill_dalek_cdw": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"chocolate_dalek_white\"}"
+				}
+			}
+		},
+		"kill_dalek_cdy": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"classic_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_cdr": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"classic_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_id": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_ida": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_idc": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek_commander\"}"
+				}
+			}
+		},
+		"kill_dalek_idg": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek_gold\"}"
+				}
+			}
+		},
+		"kill_dalek_idga": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek_gold_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_ids": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"invasion_dalek_supreme\"}"
+				}
+			}
+		},
+		"kill_dalek_md": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"molten_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_nd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"nether_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_nda": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"nether_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_sd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_sda": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_sdk": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_black\"}"
+				}
+			}
+		},
+		"kill_dalek_sdka": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_black_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_sdb": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_blue\"}"
+				}
+			}
+		},
+		"kill_dalek_sdba": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_blue_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_sdg": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_guard\"}"
+				}
+			}
+		},
+		"kill_dalek_sds": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"skaro_dalek_supreme\"}"
+				}
+			}
+		},
+		"kill_dalek_swd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"special_weapons_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_sbd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"suicide_bomber_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_sbda": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"suicide_bomber_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_twd": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"time_war_dalek\"}"
+				}
+			}
+		},
+		"kill_dalek_twda": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"time_war_dalek_alt\"}"
+				}
+			}
+		},
+		"kill_dalek_twdb": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"time_war_dalek_black\"}"
+				}
+			}
+		},
+		"kill_dalek_twdba": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "dalekmod:dalek",
+					"nbt": "{DalekType:\"time_war_dalek_black_alt\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"kill_dalek_aid", "kill_dalek_aidb", "kill_dalek_aidg", "kill_dalek_aidr"
+		],
+		[
+			"kill_dalek_asd", "kill_dalek_asdb", "kill_dalek_asdr"
+		],
+		[
+			"kill_dalek_cd", "kill_dalek_cdd", "kill_dalek_cdm", "kill_dalek_cds", "kill_dalek_cdw"
+		],
+		[
+			"kill_dalek_cdy", "kill_dalek_cdr"
+		],
+		[
+			"kill_dalek_id", "kill_dalek_ida", "kill_dalek_idc", "kill_dalek_idg", "kill_dalek_idga", "kill_dalek_ids"
+		],
+		[
+			"kill_dalek_md"
+		],
+		[
+			"kill_dalek_nd", "kill_dalek_nda"
+		],
+		[
+			"kill_dalek_sd", "kill_dalek_sda", "kill_dalek_sdk", "kill_dalek_sdka", "kill_dalek_sdb", "kill_dalek_sdba", "kill_dalek_sdg", "kill_dalek_sds"
+		],
+		[
+			"kill_dalek_swd"
+		],
+		[
+			"kill_dalek_sbd", "kill_dalek_sbda"
+		],
+		[
+			"kill_dalek_twd", "kill_dalek_twda", "kill_dalek_twdb", "kill_dalek_twdba"
+		]
+	]
+}

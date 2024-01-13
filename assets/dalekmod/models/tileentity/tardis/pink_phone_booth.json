@@ -1,0 +1,5 @@
+{
+	"texture": "dalekmod:tileentity/tardis/pink_phone_booth",
+	"lightmap": "dalekmod:tileentity/tardis/pink_phone_booth_lightmap",
+	"parent": "dalekmod:models/tileentity/tardis/red_phone_booth"
+}

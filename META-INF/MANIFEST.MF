@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Test 1.16
+MixinConfigs: mixins.dalekmod.json
+Implementation-Version: 68.1.1
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2023-08-15T13:55:28+0100
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

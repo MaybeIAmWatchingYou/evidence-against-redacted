@@ -1,0 +1,126 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [16.5, 20, 24.5],
+	"interiorName": "Police Box War",
+	"interiorFile": "dalekmod:war",
+	"previewImage": "dalekmod:textures/gui/interior_selection/war.png",
+	"xOffset": 0,
+	"yOffset": -2,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "dalekmod:gray_plastic_roundel",
+				"quantity": 638
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 41
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic",
+				"quantity": 118
+			},
+			{
+				"item": "minecraft:spruce_planks",
+				"quantity": 112
+			},
+			{
+				"item": "minecraft:spruce_stairs",
+				"quantity": 73
+			},
+			{
+				"item": "minecraft:spruce_slab",
+				"quantity": 13
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic_slab",
+				"quantity": 77
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic_stairs",
+				"quantity": 123
+			},
+			{
+				"item": "minecraft:spruce_trapdoor",
+				"quantity": 118
+			},
+			{
+				"item": "minecraft:black_carpet",
+				"quantity": 97
+			},
+			{
+				"item": "minecraft:smooth_quartz_slab",
+				"quantity": 68
+			},
+			{
+				"item": "dalekmod:ship_light",
+				"quantity": 2
+			},
+			{
+				"item": "dalekmod:white_tube_rotor",
+				"quantity": 3
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:quartz_stairs",
+				"quantity": 12
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic",
+				"quantity": 45
+			},
+			{
+				"item": "dalekmod:white_smooth_plastic",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:stone",
+				"quantity": 482
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:police_box_door",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			}
+		]
+	}
+}

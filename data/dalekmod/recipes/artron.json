@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:zeiton_crystal"
+		},
+		{
+			"item": "minecraft:ghast_tear"
+		},
+		{
+			"item": "minecraft:glass_bottle"
+		}
+	],
+	"result": {
+		"item": "dalekmod:artron_full"
+	}
+}

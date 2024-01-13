@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/ender_special_weapons_dalek",
+   "lightmap": "dalekmod:entity/dalek/ender_special_weapons_dalek_lightmap",
+   "parent": "dalekmod:models/entity/dalek/special_weapons_dalek"
+}

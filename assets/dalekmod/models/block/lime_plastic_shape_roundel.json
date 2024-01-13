@@ -1,0 +1,7 @@
+{
+    "parent": "dalekmod:block/roundel",
+    "textures": {
+        "main": "dalekmod:block/lime_plastic_shape_roundel",
+        "alt": "dalekmod:block/lime_plastic_shape_roundel_alt"
+    }
+}

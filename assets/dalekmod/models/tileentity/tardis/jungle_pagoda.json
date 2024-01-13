@@ -1,0 +1,5 @@
+{
+	"texture": "dalekmod:tileentity/tardis/jungle_pagoda",
+	"lightmap": "dalekmod:tileentity/tardis/jungle_pagoda_lightmap",
+	"parent": "dalekmod:models/tileentity/tardis/jade_pagoda"
+}

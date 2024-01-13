@@ -1,0 +1,9 @@
+{
+  "parent": "dalekmod:block/orientable_with_back",
+  "textures": {
+    "top": "dalekmod:block/beta_chest_top",
+    "front": "dalekmod:block/beta_chest_front_right",
+    "back": "dalekmod:block/beta_chest_back_right",
+    "side": "dalekmod:block/beta_chest_side"
+  }
+}

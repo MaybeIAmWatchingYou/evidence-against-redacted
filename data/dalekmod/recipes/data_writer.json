@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RRR",
+		"CGC",
+		"SSS"
+	],
+	"key": {
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"G": {
+			"tag": "forge:glass"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:data_writer",
+		"count": 1
+	}
+}

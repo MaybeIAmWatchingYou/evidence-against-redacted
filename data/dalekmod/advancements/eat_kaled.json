@@ -1,0 +1,33 @@
+{
+	"parent": "dalekmod:kill_dalek",
+	"display": {
+		"icon": {
+			"item": "dalekmod:fried_dalek_mutant"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.eat_kaled.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.eat_kaled.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"eat_kaled": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "dalekmod:fried_dalek_mutant"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_kaled"
+		]
+	]
+}

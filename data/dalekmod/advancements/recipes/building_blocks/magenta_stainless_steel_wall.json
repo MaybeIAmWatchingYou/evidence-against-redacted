@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:magenta_stainless_steel"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:magenta_stainless_steel_wall"
+			}
+		},
+		"has_the_stonecutter_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:magenta_stainless_steel_wall_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_steel",
+			"has_the_recipe",
+			"has_the_stonecutter_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:magenta_stainless_steel_wall",
+			"dalekmod:magenta_stainless_steel_wall_from_stonecutting"
+		]
+	}
+}

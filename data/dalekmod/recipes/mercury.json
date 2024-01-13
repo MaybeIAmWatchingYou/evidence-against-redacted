@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "minecraft:glass_bottle"
+		},
+		{
+			"item": "dalekmod:cinnabar"
+		},
+		{
+			"item": "minecraft:lava_bucket"
+		}
+	],
+	"result": {
+		"item": "dalekmod:mercury"
+	}
+}

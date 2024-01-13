@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:kaletite_brick"
+		}
+	},
+	"result": {
+		"item": "dalekmod:kaletite_brick_stairs",
+		"count": 4
+	}
+}

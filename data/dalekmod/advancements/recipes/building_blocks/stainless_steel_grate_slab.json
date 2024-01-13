@@ -1,0 +1,48 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:stainless_steel_grate"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:stainless_steel_grate_slab"
+			}
+		},
+		"has_the_stonecutter_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:stainless_steel_grate_slab_from_stonecutting"
+			}
+		},
+		"has_the_base_stonecutter_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:stainless_steel_grate_slab_from_stainless_steel_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_steel",
+			"has_the_recipe",
+			"has_the_stonecutter_recipe",
+			"has_the_base_stonecutter_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:stainless_steel_grate_slab",
+			"dalekmod:stainless_steel_grate_slab_from_stonecutting",
+			"dalekmod:stainless_steel_grate_slab_from_stainless_steel_stonecutting"
+		]
+	}
+}

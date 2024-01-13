@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/dark_star"
+		}
+	],
+	"result": {
+		"item": "dalekmod:dark_star_dust",
+		"count": 9
+	}
+}

@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:tileentity/artron_fuel_tank/artron_fuel_tank_2",
+   "lightmap": "dalekmod:tileentity/artron_fuel_tank/artron_fuel_tank_2_lightmap",
+   "parent": "dalekmod:models/tileentity/artron_fuel_tank/artron_fuel_tank"
+}

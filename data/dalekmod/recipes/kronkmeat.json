@@ -1,0 +1,18 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "minecraft:mutton"
+		},
+		{
+			"item": "minecraft:beef"
+		},
+		{
+			"item": "minecraft:chicken"
+		}
+	],
+	"result": {
+		"item": "dalekmod:kronkmeat",
+		"count": 5
+	}
+}

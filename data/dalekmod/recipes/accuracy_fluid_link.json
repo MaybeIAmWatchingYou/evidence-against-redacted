@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:zeiton_crystal"
+		},
+		{
+			"item": "dalekmod:refined_sonic_crystal"
+		},
+		{
+			"item": "dalekmod:steel_ingot"
+		}
+	],
+	"result": {
+		"item": "dalekmod:accuracy_fluid_link"
+	}
+}

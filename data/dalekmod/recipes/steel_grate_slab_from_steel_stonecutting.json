@@ -1,0 +1,8 @@
+{
+		"type": "minecraft:stonecutting",
+		"ingredient": {
+				"item": "dalekmod:steel_block"
+		},
+		"result": "dalekmod:steel_grate_slab",
+		"count": 2
+}

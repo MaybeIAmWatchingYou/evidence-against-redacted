@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"C",
+		"M"
+	],
+	"key": {
+		"M": {
+			"item": "minecraft:milk_bucket"
+		},
+		"C": {
+			"item": "minecraft:cocoa_beans"
+		}
+	},
+	"result": {
+		"item": "dalekmod:kronkshake",
+		"count": 1
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:flight_lever",
+		"dalekmod:coord_panel",
+		"dalekmod:dimension_selector_panel",
+		"dalekmod:waypoint_panel",
+		"dalekmod:fast_return_lever",
+		"dalekmod:chameleon_panel",
+		"dalekmod:sonic_interface",
+		"dalekmod:data_writer",
+		"dalekmod:scanner",
+		"dalekmod:fault_locator",
+		"dalekmod:ars",
+		"dalekmod:roundel_builder",
+		"dalekmod:artron_fuel_tank"
+	]
+}

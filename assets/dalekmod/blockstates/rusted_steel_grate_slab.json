@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "dalekmod:block/rusted_steel_grate_slab" },
+    "type=top": { "model": "dalekmod:block/rusted_steel_grate_slab_top" },
+    "type=double": { "model": "dalekmod:block/rusted_steel_grate_slab_double" }
+  }
+}

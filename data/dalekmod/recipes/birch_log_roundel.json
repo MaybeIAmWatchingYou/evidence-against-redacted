@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:birch_log"
+		}
+	],
+	"result": {
+		"item": "dalekmod:birch_log_roundel"
+	}
+}

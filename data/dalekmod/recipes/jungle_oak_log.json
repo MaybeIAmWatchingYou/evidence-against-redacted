@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:jungle_log"
+		}
+	],
+	"result": {
+		"item": "dalekmod:jungle_log_roundel"
+	}
+}

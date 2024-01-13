@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:refined_dalekanium_block"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:refined_dalekanium_ingot",
+		"count": 9
+	}
+}

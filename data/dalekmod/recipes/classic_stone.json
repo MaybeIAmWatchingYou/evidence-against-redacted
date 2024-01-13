@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "dalekmod:classic_cobble"
+	},
+	"result": "dalekmod:classic_stone",
+	"experience": 0.1,
+	"cookingtime": 200
+}

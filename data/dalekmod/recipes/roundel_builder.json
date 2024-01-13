@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SM ",
+		"WW ",
+		"WW "
+	],
+	"key": {
+		"W": {
+			"tag": "minecraft:planks"
+		},
+		"S": {
+			"item": "minecraft:stonecutter"
+		},
+		"M": {
+			"item": "dalekmod:roundel_mold"
+		}
+	},
+	"result": {
+		"item": "dalekmod:roundel_builder",
+		"count": 1
+	}
+}

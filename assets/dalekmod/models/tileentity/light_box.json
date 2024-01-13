@@ -1,0 +1,22 @@
+{
+	"texture": "dalekmod:tileentity/light_box",
+	"lightmap": "dalekmod:tileentity/light_box_lightmap",
+	"texture_width": 64,
+	"texture_height": 64,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [-180,0,180],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [16,16,16],
+					"origin": [-8,-16,-8],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

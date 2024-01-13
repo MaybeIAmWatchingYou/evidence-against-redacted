@@ -1,0 +1,46 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_items": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_stained_glass_pane"
+					},
+					{
+						"item": "minecraft:blue_stained_glass_pane"
+					}
+				]
+			}
+		},
+		"has_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_plastic"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:3d_glasses"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_wool",
+			"has_items",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:3d_glasses"
+		]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"count": 1,
+	"ingredient": {
+		"item": "dalekmod:plated_stainless_steel"
+	},
+	"result": "dalekmod:diamondplated_stainless_steel"
+}

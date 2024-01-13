@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dark_star_ingot",
+	"ingredients": [
+		{
+			"item": "dalekmod:dark_star_alloy"
+		}
+	],
+	"result": {
+		"item": "dalekmod:dark_star_ingot",
+		"count": 9
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7.10",
+  "package": "com.swdteam.mixins",
+  "refmap": "mixins.dalekmod.refmap.json",
+  "required": true,
+  "mixins": ["ItemMixin", "CompassItemMixin"],
+  "client": ["ModelBakeryMixin", "LightMapMixin", "GameRendererMixin", "MinecraftMixin", "ClientPlayBiomeMixin", "RenderPlayerMixin", "MovementInputMixin"],
+  "server": ["EntityMixin"]
+}

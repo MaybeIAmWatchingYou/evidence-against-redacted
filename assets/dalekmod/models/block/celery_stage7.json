@@ -1,0 +1,6 @@
+{
+  "parent": "dalekmod:block/cross_crop",
+  "textures": {
+    "cross": "dalekmod:block/celery_stage7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:cheese_block"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:cheese",
+		"count": 9
+	}
+}

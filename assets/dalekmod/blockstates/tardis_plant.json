@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; models in dalekmod:tileentity/tardis_plant/",
+  "variants": {"": {"model": "dalekmod:block/tardis_plant"}}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dyed_fez",
+	"ingredients": [
+		{
+			"item": "dalekmod:white_fez"
+		},
+		{
+			"tag": "forge:dyes/brown"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:brown_fez",
+		"count": 1
+	}
+}

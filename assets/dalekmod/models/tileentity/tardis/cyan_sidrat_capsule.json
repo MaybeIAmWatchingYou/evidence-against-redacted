@@ -1,0 +1,4 @@
+{
+	"texture": "dalekmod:tileentity/tardis/cyan_sidrat_capsule",
+	"parent": "dalekmod:models/tileentity/tardis/iron_sidrat_capsule"
+}

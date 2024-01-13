@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CRC",
+		"SAS",
+		"CRC"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:smooth_stone"
+		},
+		"S": {
+			"item": "dalekmod:brass_cog"
+		},
+		"A": {
+			"item": "dalekmod:purple_stainless_steel"
+		},
+		"R": {
+			"tag": "forge:circuits/basic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:flight_panel",
+		"count": 1
+	}
+}

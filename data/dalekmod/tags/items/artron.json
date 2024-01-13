@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:artron",
+		"#forge:liquids/artron"
+	]
+}

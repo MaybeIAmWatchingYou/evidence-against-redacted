@@ -1,0 +1,73 @@
+{
+	"credit": "Made by ranafangirl",
+	"texture": "dalekmod:tileentity/tardis/red_phone_booth",
+	"lightmap": "dalekmod:tileentity/tardis/red_phone_booth_lightmap",
+	"alphamap": "generated",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [20,40,20],
+					"origin": [-10,-39.9,-10],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [80,20],
+					"size": [16,16,3],
+					"origin": [-8,-28,7],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,0],
+					"size": [6,12,2],
+					"origin": [-6,-26,5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [40,0],
+					"size": [20,0,20],
+					"origin": [-10,-1.9,-10],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [48,68],
+					"size": [20,7,20],
+					"origin": [-10,-40,-10],
+					"inflate": 0.3,
+					"mirror": false
+				},
+				{
+					"uv": [0,106],
+					"size": [21,1,21],
+					"origin": [-10.5,-1,-10.5],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "door",
+			"pivot": [-7,3,-10],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,60],
+					"size": [14,29,2],
+					"origin": [0,-10,0],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

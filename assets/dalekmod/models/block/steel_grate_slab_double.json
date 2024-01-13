@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dalekmod:block/steel_grate",
+    "side": "dalekmod:block/steel_grate_slab"
+  }
+}

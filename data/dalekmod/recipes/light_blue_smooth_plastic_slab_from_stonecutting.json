@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:light_blue_smooth_plastic"
+	},
+	"result": "dalekmod:light_blue_smooth_plastic_slab",
+	"count": 2
+}

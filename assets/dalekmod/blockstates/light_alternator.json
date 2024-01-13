@@ -1,0 +1,38 @@
+{
+	"multipart": [
+		{ "when":{ "side_activated":"left", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_left", "y": 0} },
+		{ "when":{ "side_activated":"left", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_left", "y": 90} },
+		{ "when":{ "side_activated":"left", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_left", "y": 180} },
+		{ "when":{ "side_activated":"left", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_left", "y": 270} },
+
+		{ "when":{ "side_activated":"right", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_right", "y": 0} },
+		{ "when":{ "side_activated":"right", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_right", "y": 90} },
+		{ "when":{ "side_activated":"right", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_right", "y": 180} },
+		{ "when":{ "side_activated":"right", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_right", "y": 270} },
+
+		{ "when":{ "button_pressed":"0", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_buttons", "y": 0} },
+		{ "when":{ "button_pressed":"0", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_buttons", "y": 90} },
+		{ "when":{ "button_pressed":"0", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_buttons", "y": 180} },
+		{ "when":{ "button_pressed":"0", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_buttons", "y": 270} },
+
+		{ "when":{ "button_pressed":"1", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_sub_l", "y": 0} },
+		{ "when":{ "button_pressed":"1", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_sub_l", "y": 90} },
+		{ "when":{ "button_pressed":"1", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_sub_l", "y": 180} },
+		{ "when":{ "button_pressed":"1", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_sub_l", "y": 270} },
+
+		{ "when":{ "button_pressed":"2", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_sub_r", "y": 0} },
+		{ "when":{ "button_pressed":"2", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_sub_r", "y": 90} },
+		{ "when":{ "button_pressed":"2", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_sub_r", "y": 180} },
+		{ "when":{ "button_pressed":"2", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_sub_r", "y": 270} },
+
+		{ "when":{ "button_pressed":"3", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_add_l", "y": 0} },
+		{ "when":{ "button_pressed":"3", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_add_l", "y": 90} },
+		{ "when":{ "button_pressed":"3", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_add_l", "y": 180} },
+		{ "when":{ "button_pressed":"3", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_add_l", "y": 270} },
+
+		{ "when":{ "button_pressed":"4", "facing": "north" }, "apply": { "model": "dalekmod:block/light_alternator_add_r", "y": 0} },
+		{ "when":{ "button_pressed":"4", "facing": "east" }, "apply": { "model": "dalekmod:block/light_alternator_add_r", "y": 90} },
+		{ "when":{ "button_pressed":"4", "facing": "south" }, "apply": { "model": "dalekmod:block/light_alternator_add_r", "y": 180} },
+		{ "when":{ "button_pressed":"4", "facing": "west" }, "apply": { "model": "dalekmod:block/light_alternator_add_r", "y": 270} }
+	]
+}

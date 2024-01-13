@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"WEW",
+		"   "
+	],
+	"key": {
+		"W": {
+			"item": "minecraft:wheat"
+		},
+		"E": {
+			"tag": "forge:eggs"
+		}
+	},
+	"result": {
+		"item": "dalekmod:dalek_cookie",
+		"count": 8
+	}
+}

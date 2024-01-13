@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_roundel",
+  "display": {
+    "icon": {
+      "item": "dalekmod:roundel_door"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_roundel_door.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_roundel_door.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_roundel_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:roundel_door"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_roundel_door"
+    ]
+  ]
+}

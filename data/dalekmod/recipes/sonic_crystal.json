@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "dalekmod:sonic_crystal_ore"
+	},
+	"result": "dalekmod:sonic_crystal",
+	"experience": 0.7,
+	"cookingtime": 200
+}

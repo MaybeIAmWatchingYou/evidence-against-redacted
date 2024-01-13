@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_plastic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:plastic_chunk",
+						"count": 4
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:white_plastic"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_plastic",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_plastic"
+		]
+	}
+}

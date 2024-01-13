@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:data_module"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_data_plastic.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_data_plastic.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_data_plastic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:data_module"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_data_plastic"
+    ]
+  ]
+}

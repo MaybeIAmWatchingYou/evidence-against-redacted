@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_data_plastic",
+  "display": {
+    "icon": {
+      "item": "dalekmod:data_module_gold"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_data_gold.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_data_gold.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "obtain_data_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:data_module_gold"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_data_gold"
+    ]
+  ]
+}

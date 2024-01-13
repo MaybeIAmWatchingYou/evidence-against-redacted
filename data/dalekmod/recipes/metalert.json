@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "dalekmod:dalekanium_concentrate"
+		},
+		{
+			"item": "minecraft:lava_bucket"
+		},
+		{
+			"item": "dalekmod:metalert_scrap"
+		}
+	],
+	"result": {
+		"item": "dalekmod:metalert"
+	}
+}

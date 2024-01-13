@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north,button_pressed=0": { "model": "dalekmod:block/dimension_selector", "y": 0},
+    "facing=north,button_pressed=1": { "model": "dalekmod:block/dimension_selector_pressed_left", "y": 0},
+    "facing=north,button_pressed=2": { "model": "dalekmod:block/dimension_selector_pressed_center", "y": 0},
+    "facing=north,button_pressed=3": { "model": "dalekmod:block/dimension_selector_pressed_right", "y": 0},
+    "facing=south,button_pressed=0": { "model": "dalekmod:block/dimension_selector", "y": 180},
+    "facing=south,button_pressed=1": { "model": "dalekmod:block/dimension_selector_pressed_left", "y": 180},
+    "facing=south,button_pressed=2": { "model": "dalekmod:block/dimension_selector_pressed_center", "y": 180},
+    "facing=south,button_pressed=3": { "model": "dalekmod:block/dimension_selector_pressed_right", "y": 180},
+    "facing=west,button_pressed=0": { "model": "dalekmod:block/dimension_selector", "y": 270},
+    "facing=west,button_pressed=1": { "model": "dalekmod:block/dimension_selector_pressed_left", "y": 270},
+    "facing=west,button_pressed=2": { "model": "dalekmod:block/dimension_selector_pressed_center", "y": 270},
+    "facing=west,button_pressed=3": { "model": "dalekmod:block/dimension_selector_pressed_right", "y": 270},
+    "facing=east,button_pressed=0": { "model": "dalekmod:block/dimension_selector", "y": 90},
+    "facing=east,button_pressed=1": { "model": "dalekmod:block/dimension_selector_pressed_left", "y": 90},
+    "facing=east,button_pressed=2": { "model": "dalekmod:block/dimension_selector_pressed_center", "y": 90},
+    "facing=east,button_pressed=3": { "model": "dalekmod:block/dimension_selector_pressed_right", "y": 90}
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "exteriorName":"Epsimo Tardis",
+   "interiorPath":"dalekmod:pagoda_default",
+   "modelPath":[
+      "dalekmod:models/tileentity/tardis/epsimo_police_box.json"
+   ],
+   "xpValue":1337,
+   "unlockable":false,
+   "desc":"A Purple tardis."
+}

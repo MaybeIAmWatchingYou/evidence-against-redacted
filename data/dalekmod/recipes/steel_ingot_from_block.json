@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "dalekmod:steel_block"
+		}
+	],
+	"result": {
+		"item": "dalekmod:steel_ingot",
+		"count": 9
+	}
+}

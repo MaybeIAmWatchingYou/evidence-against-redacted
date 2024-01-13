@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DDD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"tag": "forge:ingots/refined_dalekanium"
+		}
+	},
+	"result": {
+		"item": "dalekmod:refined_dalekanium_block",
+		"count": 1
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:enter_tardis",
+  "display": {
+    "icon": {
+      "item": "dalekmod:roundel_mold"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_roundel.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_roundel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_roundel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:roundel_mold"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_roundel"
+    ]
+  ]
+}

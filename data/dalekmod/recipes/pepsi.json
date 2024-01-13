@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "minecraft:potion"
+		},
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "minecraft:iron_ingot"
+		}
+	],
+	"result": {
+		"item": "dalekmod:pepsi"
+	}
+}

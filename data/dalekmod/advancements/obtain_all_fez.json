@@ -1,0 +1,230 @@
+{
+	"parent": "dalekmod:obtain_kerblam",
+	"display": {
+		"icon": {
+			"item": "dalekmod:red_fez"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.obtain_all_fez.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.obtain_all_fez.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_black_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:black_fez"
+					}
+				]
+			}
+		},
+		"obtain_blue_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:blue_fez"
+					}
+				]
+			}
+		},
+		"obtain_brown_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:brown_fez"
+					}
+				]
+			}
+		},
+		"obtain_cyan_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:cyan_fez"
+					}
+				]
+			}
+		},
+		"obtain_gray_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:gray_fez"
+					}
+				]
+			}
+		},
+		"obtain_green_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:green_fez"
+					}
+				]
+			}
+		},
+		"obtain_light_blue_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_blue_fez"
+					}
+				]
+			}
+		},
+		"obtain_light_gray_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_gray_fez"
+					}
+				]
+			}
+		},
+		"obtain_lime_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:lime_fez"
+					}
+				]
+			}
+		},
+		"obtain_magenta_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:magenta_fez"
+					}
+				]
+			}
+		},
+		"obtain_orange_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:orange_fez"
+					}
+				]
+			}
+		},
+		"obtain_pink_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:pink_fez"
+					}
+				]
+			}
+		},
+		"obtain_purple_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:purple_fez"
+					}
+				]
+			}
+		},
+		"obtain_red_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:red_fez"
+					}
+				]
+			}
+		},
+		"obtain_white_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_fez"
+					}
+				]
+			}
+		},
+		"obtain_yellow_fez": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:yellow_fez"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_black_fez"
+		],
+		[
+			"obtain_blue_fez"
+		],
+		[
+			"obtain_brown_fez"
+		],
+		[
+			"obtain_cyan_fez"
+		],
+		[
+			"obtain_gray_fez"
+		],
+		[
+			"obtain_green_fez"
+		],
+		[
+			"obtain_light_blue_fez"
+		],
+		[
+			"obtain_light_gray_fez"
+		],
+		[
+			"obtain_lime_fez"
+		],
+		[
+			"obtain_magenta_fez"
+		],
+		[
+			"obtain_orange_fez"
+		],
+		[
+			"obtain_pink_fez"
+		],
+		[
+			"obtain_purple_fez"
+		],
+		[
+			"obtain_red_fez"
+		],
+		[
+			"obtain_white_fez"
+		],
+		[
+			"obtain_yellow_fez"
+		]
+	]
+}

@@ -1,0 +1,4 @@
+{
+	"texture": "dalekmod:tileentity/tardis/crimson_planks_block_stack",
+	"parent": "dalekmod:models/tileentity/tardis/cobblestone_block_stack"
+}

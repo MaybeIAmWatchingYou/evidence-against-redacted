@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:steel_block",
+		"dalekmod:weak_steel_block",
+		"dalekmod:rusted_steel_block",
+		"dalekmod:rusted_weak_steel_block",
+		"#dalekmod:diamond_plated_steel",
+		"#dalekmod:plated_steel",
+		"#dalekmod:stainless_steel_block",
+		"dalekmod:steel_ingot",
+		"dalekmod:stainless_steel_ingot"
+	]
+}

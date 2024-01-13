@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dalekmod:block/scorched_quartz_block_top",
+    "top": "dalekmod:block/scorched_quartz_block_top",
+    "side": "dalekmod:block/scorched_quartz_block_side"
+  }
+}

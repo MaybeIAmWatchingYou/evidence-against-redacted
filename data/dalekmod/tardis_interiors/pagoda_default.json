@@ -1,0 +1,82 @@
+{
+	"default_rotation": 20,
+	"door_offset": [ 17, 17, 9.5 ],
+	"block_offset": [ 0, -2, 0 ],
+	"name": "dalekmod.interior.name.pagoda_default",
+	"schematic": "dalekmod:pagoda_default",
+	"preview": "dalekmod:textures/gui/interior_selection/pagoda_default.png",
+	"recipe": [
+		{
+			"item": "dalekmod:plastic_chunk",
+			"quantity": 512
+		},
+		{
+			"item": "minecraft:white_concrete",
+			"quantity": 256
+		},
+		{
+			"item": "dalekmod:ship_light",
+			"quantity": 32
+		},
+		{
+			"item": "dalekmod:light_box",
+			"quantity": 32
+		},
+		{
+			"item": "dalekmod:stainless_steel_ingot",
+			"quantity": 32
+		},
+		{
+			"item": "minecraft:stone",
+			"quantity": 32
+		},
+		{
+			"item": "minecraft:white_wool",
+			"quantity": 16
+		},
+		{
+			"item": "minecraft:iron_ingot",
+			"quantity": 16
+		},
+		{
+			"item": "minecraft:andesite",
+			"quantity": 8
+		},
+		{
+			"item": "dalekmod:coord_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:dimension_selector_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:waypoint_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:chameleon_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:flight_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fast_return_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:scanner",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fault_locator",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:glass_rotor",
+			"quantity": 1
+		}
+	]
+}

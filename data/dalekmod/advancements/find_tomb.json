@@ -1,0 +1,33 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:cyberman_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.find_tomb.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.find_tomb.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"find_tomb": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"feature": "dalekmod:cyberman_tomb"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"find_tomb"
+		]
+	]
+}

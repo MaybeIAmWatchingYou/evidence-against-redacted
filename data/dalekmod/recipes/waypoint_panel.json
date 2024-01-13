@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"BCM",
+		"SSS"
+	],
+	"key": {
+		"M": {
+			"item": "minecraft:map"
+		},
+		"B": {
+			"tag": "minecraft:buttons"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:waypoint_panel",
+		"count": 1
+	}
+}

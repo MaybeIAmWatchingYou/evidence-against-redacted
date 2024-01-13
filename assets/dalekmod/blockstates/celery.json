@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "dalekmod:block/celery_stage0" },
+    "age=1": { "model": "dalekmod:block/celery_stage1" },
+    "age=2": { "model": "dalekmod:block/celery_stage2" },
+    "age=3": { "model": "dalekmod:block/celery_stage3" },
+	"age=4": { "model": "dalekmod:block/celery_stage4" },
+	"age=5": { "model": "dalekmod:block/celery_stage5" },
+    "age=6": { "model": "dalekmod:block/celery_stage6" },
+    "age=7": { "model": "dalekmod:block/celery_stage7" }
+  }
+}

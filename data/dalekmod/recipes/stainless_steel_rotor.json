@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" I ",
+		" B ",
+		"SSS"
+	],
+	"key": {
+		"B": {
+			"item": "dalekmod:stainless_steel_block"
+		},
+		"I": {
+			"tag": "forge:ingots/stainless_steel"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:stainless_steel_rotor",
+		"count": 1
+	}
+}

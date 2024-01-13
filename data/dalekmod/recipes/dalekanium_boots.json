@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+   "D D",
+   "R R",
+   "   "
+  ],
+  "key": {
+    "D": {
+      "item": "dalekmod:dalekanium_ingot"
+    },
+    "R": {
+      "item": "dalekmod:refined_dalekanium_ingot"
+    }
+  },
+  "result": {
+    "item": "dalekmod:dalekanium_boots",
+    "count": 1
+  }
+}

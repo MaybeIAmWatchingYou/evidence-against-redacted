@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dalekanium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:dalekanium_ingot"
+					}
+				]
+			}
+		},
+		"has_the_sword_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:dalekanium_sword"
+			}
+		},
+		"has_the_mace_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:dalekanium_mace"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_dalekanium",
+			"has_the_sword_recipe",
+			"has_the_mace_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:dalekanium_sword",
+			"dalekmod:dalekanium_mace"
+		]
+	}
+}

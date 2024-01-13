@@ -1,0 +1,16 @@
+{
+		"type": "minecraft:crafting_shaped",
+		"group": "dyed_stainless_steel_slab_crafted",
+		"pattern": [
+				"###"
+		],
+		"key": {
+				"#": {
+						"item": "dalekmod:magenta_stainless_steel"
+				}
+		},
+		"result": {
+				"item": "dalekmod:magenta_stainless_steel_slab",
+				"count": 6
+		}
+}

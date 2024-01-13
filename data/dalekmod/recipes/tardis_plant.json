@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"FPR",
+		" B "
+	],
+	"key": {
+		"C": {
+			"item": "dalekmod:tardis_core"
+		},
+		"P": {
+			"item": "dalekmod:tardis_panels"
+		},
+		"B": {
+			"item": "dalekmod:tardis_base"
+		},
+		"F": {
+			"item": "dalekmod:flight_lever"
+		},
+		"R": {
+			"item": "dalekmod:fast_return_lever"
+		}
+	},
+	"result": {
+		"item": "dalekmod:tardis_plant",
+		"count": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "dalekmod:pure_dalekanium_battleaxe"
+	},
+	"addition": {
+		"tag": "forge:liquids/metalert"
+	},
+	"result": {
+		"item": "dalekmod:metalert_battleaxe"
+	}
+}

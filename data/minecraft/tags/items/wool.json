@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:white_classic_wool",
+		"dalekmod:orange_classic_wool",
+		"dalekmod:magenta_classic_wool",
+		"dalekmod:aqua_classic_wool",
+		"dalekmod:yellow_classic_wool",
+		"dalekmod:lime_classic_wool",
+		"dalekmod:pink_classic_wool",
+		"dalekmod:teal_classic_wool",
+		"dalekmod:gray_classic_wool",
+		"dalekmod:cyan_classic_wool",
+		"dalekmod:violet_classic_wool",
+		"dalekmod:blue_classic_wool",
+		"dalekmod:green_classic_wool",
+		"dalekmod:red_classic_wool",
+		"dalekmod:black_classic_wool",
+		"dalekmod:indigo_classic_wool"
+	]
+}

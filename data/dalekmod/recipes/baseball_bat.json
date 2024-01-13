@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "dalekmod:wooden_baseball_bat"
+  },
+  "addition": {
+    "item": "dalekmod:stainless_steel_ingot"
+  },
+  "result": {
+    "item": "dalekmod:baseball_bat"
+  }
+}

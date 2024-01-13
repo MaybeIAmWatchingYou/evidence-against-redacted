@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "dyed_classic_wool",
+	"ingredients": [
+		{
+			"item": "dalekmod:white_classic_wool"
+		},
+		{
+			"tag": "forge:dyes/cyan"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:cyan_classic_wool",
+		"count": 1
+	}
+}

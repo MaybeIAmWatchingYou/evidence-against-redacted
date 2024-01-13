@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"dalekmod:item/tardis"},"overrides":[{"predicate":{"custom_model_data":1},"model":"dalekmod:item/tardis_spawner_t"}]}

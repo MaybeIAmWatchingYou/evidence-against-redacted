@@ -1,0 +1,142 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [15.5, 6, 28.5],
+	"interiorName": "Police Box Crystaline",
+	"interiorFile": "dalekmod:crystaline",
+	"previewImage": "dalekmod:textures/gui/interior_selection/crystaline.png",
+	"xOffset": 0,
+	"yOffset": 4,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "dalekmod:rusted_steel_beams_roundel",
+				"quantity": 219
+			},
+			{
+				"item": "dalekmod:filled_rusted_steel_beams_roundel",
+				"quantity": 600
+			},
+			{
+				"item": "dalekmod:rusted_steel_block",
+				"quantity": 95
+			},
+			{
+				"item": "dalekmod:rusted_steel_stairs",
+				"quantity": 11
+			},
+			{
+				"item": "dalekmod:rusted_steel_slab",
+				"quantity": 32
+			},
+			{
+				"item": "dalekmod:black_stainless_steel",
+				"quantity": 414
+			},
+			{
+				"item": "dalekmod:black_stainless_steel_slab",
+				"quantity": 49
+			},
+			{
+				"item": "minecraft:black_concrete",
+				"quantity": 285
+			},
+			{
+				"item": "minecraft:polished_blackstone_slab",
+				"quantity": 26
+			},
+			{
+				"item": "minecraft:polished_blackstone_stairs",
+				"quantity": 18
+			},
+			{
+				"item": "dalekmod:crystaline_block",
+				"quantity": 71
+			},
+			{
+				"item": "dalekmod:orange_stainless_steel_slab",
+				"quantity": 18
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 20
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic",
+				"quantity": 12
+			},
+			{
+				"item": "dalekmod:steel_slab",
+				"quantity": 16
+			},
+			{
+				"item": "minecraft:cyan_concrete",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:deadlock_door",
+				"quantity": 4
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 2
+			},
+			{
+				"item": "dalekmod:police_box_door",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:orange_stained_glass",
+				"quantity": 33
+			},
+			{
+				"item": "minecraft:blue_stained_glass",
+				"quantity": 11
+			},
+			{
+				"item": "minecraft:black_stained_glass",
+				"quantity": 32
+			},
+			{
+				"item": "minecraft:shroomlight",
+				"quantity": 33
+			}
+		]
+	}
+}

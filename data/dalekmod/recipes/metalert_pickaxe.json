@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "dalekmod:pure_dalekanium_pickaxe"
+	},
+	"addition": {
+		"tag": "forge:liquids/metalert"
+	},
+	"result": {
+		"item": "dalekmod:metalert_pickaxe"
+	}
+}

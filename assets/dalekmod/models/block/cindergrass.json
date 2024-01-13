@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "dalekmod:block/cindersoil",
+        "bottom": "dalekmod:block/cindersoil",
+        "top": "dalekmod:block/cindergrass_top",
+        "side": "dalekmod:block/cindergrass_side"
+    }
+}

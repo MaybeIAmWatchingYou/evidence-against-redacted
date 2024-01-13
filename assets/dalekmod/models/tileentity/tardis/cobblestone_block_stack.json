@@ -1,0 +1,36 @@
+{
+	"texture": "dalekmod:tileentity/tardis/cobblestone_block_stack",
+    "alphamap": "generated",
+	"texture_width": 128,
+	"texture_height": 128,
+	"scale": 1,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,0],
+					"size": [16,32,14],
+					"origin": [-8,-32,-6],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "rightDoor",
+			"pivot": [-8,24,-6],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,46],
+					"size": [16,32,2],
+					"origin": [0,-32,-2],
+					"inflate": 0.01,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SCS",
+		"SBS",
+		"SRS"
+	],
+	"key": {
+		"S": {
+			"tag": "forge:ingots/steel"
+		},
+		"C": {
+			"item": "minecraft:compass"
+		},
+		"B": {
+			"tag": "minecraft:buttons"
+		},
+		"R": {
+			"tag": "forge:circuits/basic"
+		}
+	},
+	"result": {
+		"item": "dalekmod:stattenheim_remote",
+		"count": 1
+	}
+}

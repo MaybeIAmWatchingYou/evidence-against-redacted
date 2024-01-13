@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:stattenheim_remote"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_stat.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_stat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_stat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:stattenheim_remote"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_stat"
+    ]
+  ]
+}

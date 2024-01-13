@@ -1,0 +1,6 @@
+{
+  "parent": "dalekmod:block/tube_rotor",
+	"textures": {
+		"rotor": "dalekmod:block/blue_rotor_tube"
+	}
+}

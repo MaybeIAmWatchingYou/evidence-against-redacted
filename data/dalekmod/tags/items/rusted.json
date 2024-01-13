@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:rusted_steel_block",
+		"dalekmod:rusted_steel_stairs",
+		"dalekmod:rusted_steel_slab",
+		"dalekmod:rusted_steel_block_panels",
+		"dalekmod:rusted_weak_steel_block",
+		"dalekmod:rusted_steel_grate",
+		"dalekmod:rusted_steel_beams",
+		"dalekmod:filled_rusted_steel_beams_roundel",
+		"dalekmod:rusted_steel_beams_roundel"
+	]
+}

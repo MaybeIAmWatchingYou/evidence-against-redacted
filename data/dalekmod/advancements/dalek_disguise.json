@@ -1,0 +1,71 @@
+{
+	"parent": "dalekmod:kill_dalek",
+	"display": {
+		"icon": {
+			"item": "dalekmod:eyestalk"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.dalek_disguise.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.dalek_disguise.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_eyestalk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:eyestalk"
+					}
+				]
+			}
+		},
+		"obtain_plunger": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:plunger"
+					}
+				]
+			}
+		},
+		"obtain_gunstick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:gunstick"
+					}
+				]
+			}
+		},
+		"obtain_cannon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:cannon"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_eyestalk"
+		],
+		[
+			"obtain_plunger"
+		],
+		[
+			"obtain_gunstick", "obtain_cannon"
+		]
+	]
+}

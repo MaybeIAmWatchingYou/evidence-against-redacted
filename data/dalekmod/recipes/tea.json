@@ -1,0 +1,17 @@
+{
+	"type": "dalekmod:engineering_table",
+	"ingredients": [
+		{
+			"item": "minecraft:potion"
+		},
+		{
+			"item": "dalekmod:tea_cup"
+		},
+		{
+			"item": "dalekmod:tea_leaf"
+		}
+	],
+	"result": {
+		"item": "dalekmod:tea"
+	}
+}

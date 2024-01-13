@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_roundels": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:terracotta_roundels"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_roundels"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_terracotta_roundels",
+			"dalekmod:orange_terracotta_roundels",
+			"dalekmod:magenta_terracotta_roundels",
+			"dalekmod:light_blue_terracotta_roundels",
+			"dalekmod:lime_terracotta_roundels",
+			"dalekmod:yellow_terracotta_roundels",
+			"dalekmod:pink_terracotta_roundels",
+			"dalekmod:gray_terracotta_roundels",
+			"dalekmod:cyan_terracotta_roundels",
+			"dalekmod:light_grey_terracotta_roundels",
+			"dalekmod:purple_terracotta_roundels",
+			"dalekmod:blue_terracotta_roundels",
+			"dalekmod:brown_terracotta_roundels",
+			"dalekmod:green_terracotta_roundels",
+			"dalekmod:red_terracotta_roundels",
+			"dalekmod:black_terracotta_roundels"
+		]
+	}
+}

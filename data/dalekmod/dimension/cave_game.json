@@ -1,0 +1,22 @@
+{
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"structures": {
+				"structures": {}
+			},
+			"layers": [
+				{
+					"block": "dalekmod:cave_game_cobble",
+					"height": 70
+				},
+				{
+					"block": "dalekmod:cave_game_grass",
+					"height": 1
+				}
+			],
+			"biome": "minecraft:the_void"
+		}
+	},
+	"type": "dalekmod:cave_game"
+}

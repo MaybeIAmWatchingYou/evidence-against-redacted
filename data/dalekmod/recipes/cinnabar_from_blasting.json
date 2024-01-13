@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "dalekmod:cinnabarite_ore"
+	},
+	"result": "dalekmod:cinnabar",
+	"experience": 0.7,
+	"cookingtime": 100
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:kerblam_computer"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_kerblam_pc.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_kerblam_pc.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_pc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:kerblam_computer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_pc"
+    ]
+  ]
+}

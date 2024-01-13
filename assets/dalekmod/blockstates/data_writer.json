@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,cartridge=0": { "model": "dalekmod:block/data_writer", "y": 0},
+    "facing=south,cartridge=0": { "model": "dalekmod:block/data_writer", "y": 180},
+    "facing=west,cartridge=0": { "model": "dalekmod:block/data_writer", "y": 270},
+    "facing=east,cartridge=0": { "model": "dalekmod:block/data_writer", "y": 90},
+    
+    "facing=north,cartridge=1": { "model": "dalekmod:block/data_writer_module", "y": 0},
+    "facing=south,cartridge=1": { "model": "dalekmod:block/data_writer_module", "y": 180},
+    "facing=west,cartridge=1": { "model": "dalekmod:block/data_writer_module", "y": 270},
+    "facing=east,cartridge=1": { "model": "dalekmod:block/data_writer_module", "y": 90},
+    
+    "facing=north,cartridge=2": { "model": "dalekmod:block/data_writer_module_gold", "y": 0},
+    "facing=south,cartridge=2": { "model": "dalekmod:block/data_writer_module_gold", "y": 180},
+    "facing=west,cartridge=2": { "model": "dalekmod:block/data_writer_module_gold", "y": 270},
+    "facing=east,cartridge=2": { "model": "dalekmod:block/data_writer_module_gold", "y": 90}
+  }
+}

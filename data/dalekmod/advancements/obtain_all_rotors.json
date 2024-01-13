@@ -1,0 +1,490 @@
+{
+	"parent": "dalekmod:enter_tardis",
+	"display": {
+		"icon": {
+			"item": "dalekmod:glass_rotor"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.obtain_all_rotors.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.obtain_all_rotors.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_black_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:black_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_blue_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:blue_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_brown_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:brown_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_cyan_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:cyan_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_gray_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:gray_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_green_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:green_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_light_blue_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_blue_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_light_gray_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_gray_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_lime_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:lime_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_magenta_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:magenta_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_orange_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:orange_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_pink_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:pink_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_purple_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:purple_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_red_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:red_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_white_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_yellow_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:yellow_glass_rotor"
+					}
+				]
+			}
+		},
+		"obtain_black_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:black_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_blue_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:blue_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_brown_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:brown_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_cyan_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:cyan_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_gray_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:gray_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_green_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:green_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_light_blue_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_blue_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_light_gray_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:light_gray_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_lime_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:lime_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_magenta_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:magenta_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_orange_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:orange_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_pink_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:pink_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_purple_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:purple_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_red_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:red_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_white_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:white_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_yellow_tube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:yellow_tube_rotor"
+					}
+				]
+			}
+		},
+		"obtain_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:steel_rotor"
+					}
+				]
+			}
+		},
+		"obtain_stainless": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:stainless_steel_rotor"
+					}
+				]
+			}
+		},
+		"obtain_rusted": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:rusted_steel_rotor"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_glass"
+		],
+		[
+			"obtain_black_glass"
+		],
+		[
+			"obtain_black_tube"
+		],
+		[
+			"obtain_blue_glass"
+		],
+		[
+			"obtain_blue_tube"
+		],
+		[
+			"obtain_brown_glass"
+		],
+		[
+			"obtain_brown_tube"
+		],
+		[
+			"obtain_cyan_glass"
+		],
+		[
+			"obtain_cyan_tube"
+		],
+		[
+			"obtain_gray_glass"
+		],
+		[
+			"obtain_gray_tube"
+		],
+		[
+			"obtain_green_glass"
+		],
+		[
+			"obtain_green_tube"
+		],
+		[
+			"obtain_light_blue_glass"
+		],
+		[
+			"obtain_light_blue_tube"
+		],
+		[
+			"obtain_light_gray_glass"
+		],
+		[
+			"obtain_light_gray_tube"
+		],
+		[
+			"obtain_lime_glass"
+		],
+		[
+			"obtain_lime_tube"
+		],
+		[
+			"obtain_magenta_glass"
+		],
+		[
+			"obtain_magenta_tube"
+		],
+		[
+			"obtain_orange_glass"
+		],
+		[
+			"obtain_orange_tube"
+		],
+		[
+			"obtain_pink_glass"
+		],
+		[
+			"obtain_pink_tube"
+		],
+		[
+			"obtain_purple_glass"
+		],
+		[
+			"obtain_purple_tube"
+		],
+		[
+			"obtain_red_glass"
+		],
+		[
+			"obtain_red_tube"
+		],
+		[
+			"obtain_rusted"
+		],
+		[
+			"obtain_stainless"
+		],
+		[
+			"obtain_steel"
+		],
+		[
+			"obtain_white_glass"
+		],
+		[
+			"obtain_white_tube"
+		],
+		[
+			"obtain_yellow_glass"
+		],
+		[
+			"obtain_yellow_tube"
+		]
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"parent": "dalekmod:enter_tardis",
+	"display": {
+		"icon": {
+			"item": "dalekmod:tardis_spawner"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.void_teleport.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.void_teleport.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fall_in_void": {
+			"trigger": "dalekmod:void_teleport"
+		}
+	},
+	"requirements": [
+		[
+			"fall_in_void"
+		]
+	]
+}

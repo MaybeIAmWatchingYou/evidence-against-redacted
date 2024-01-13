@@ -1,0 +1,7 @@
+{
+    "parent": "dalekmod:block/roundel",
+    "textures": {
+        "main": "dalekmod:block/filled_stainless_steel_beams_roundel",
+        "alt": "dalekmod:block/filled_stainless_steel_beams_roundel_alt"
+    }
+}

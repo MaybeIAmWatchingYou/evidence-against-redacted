@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" L ",
+		"BCB",
+		"SSS"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"B": {
+			"tag": "minecraft:buttons"
+		},
+		"C": {
+			"tag": "forge:circuits/basic"
+		},
+		"S": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:light_alternator",
+		"count": 1
+	}
+}

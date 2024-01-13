@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GG ",
+		"PP ",
+		"PP "
+	],
+	"key": {
+		"P": {
+			"tag": "minecraft:planks"
+		},
+		"G": {
+			"tag": "forge:glass"
+		}
+	},
+	"result": {
+		"item": "dalekmod:police_box_door",
+		"count": 2
+	}
+}

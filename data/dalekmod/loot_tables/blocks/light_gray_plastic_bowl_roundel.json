@@ -1,0 +1,1 @@
+{ "type": "minecraft:block", "pools": [ { "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "dalekmod:light_gray_plastic_bowl_roundel" } ], "conditions": [ { "condition": "minecraft:survives_explosion" } ] } ] }

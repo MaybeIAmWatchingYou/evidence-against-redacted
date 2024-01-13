@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MS",
+		"WE"
+	],
+	"key": {
+		"M": {
+			"item": "minecraft:milk_bucket"
+		},
+		"S": {
+			"item": "minecraft:sugar"
+		},
+		"W": {
+			"tag": "forge:crops/wheat"
+		},
+		"E": {
+			"tag": "forge:eggs"
+		}
+	},
+	"result": {
+		"item": "dalekmod:dalek_cupcake",
+		"count": 3
+	}
+}

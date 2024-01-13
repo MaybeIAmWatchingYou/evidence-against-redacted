@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dalekmod:block/light_blue_smooth_plastic",
+    "top": "dalekmod:block/light_blue_smooth_plastic",
+    "side": "dalekmod:block/light_blue_smooth_plastic"
+  }
+}

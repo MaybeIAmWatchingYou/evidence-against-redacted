@@ -1,0 +1,35 @@
+{
+	"parent": "dalekmod:kill_dalek",
+	"display": {
+		"icon": {
+			"item": "dalekmod:refined_dalekanium_ingot"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.refine_dalekanium.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.refine_dalekanium.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"refine_dalekanium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:refined_dalekanium_ingot"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"refine_dalekanium"
+		]
+	]
+}

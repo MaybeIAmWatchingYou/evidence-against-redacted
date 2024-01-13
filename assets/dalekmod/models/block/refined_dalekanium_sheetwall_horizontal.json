@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column_horizontal",
+    "textures": {
+        "end": "dalekmod:block/refined_dalekanium_block",
+        "side": "dalekmod:block/refined_dalekanium_sheetwall"
+    }
+}

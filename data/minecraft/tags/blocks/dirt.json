@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:cave_game_grass",
+		"dalekmod:classic_grass",
+		"dalekmod:classic_dirt",
+		"dalekmod:cindergrass",
+		"dalekmod:cindersoil"
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"credit": "Made by rainbowdestiny",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "dalekmod:tileentity/artron_fuel_tank/artron_fuel_tank_empty"
+	},
+	"elements": [
+		{
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 2.5], "texture": "#0"},
+				"south": {"uv": [6, 2, 8, 2.5], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 2.5], "texture": "#0"},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [2, 4.5, 4, 5], "texture": "#0"},
+				"east": {"uv": [0, 4.5, 2, 5], "texture": "#0"},
+				"south": {"uv": [6, 4.5, 8, 5], "texture": "#0"},
+				"west": {"uv": [4, 4.5, 6, 5], "texture": "#0"},
+				"up": {"uv": [4, 4.5, 2, 2.5], "texture": "#0"},
+				"down": {"uv": [6, 2.5, 4, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 2, 1],
+			"to": [15, 14, 15],
+			"faces": {
+				"north": {"uv": [10.75, 1.75, 12.5, 3.25], "texture": "#0"},
+				"east": {"uv": [9, 1.75, 10.75, 3.25], "texture": "#0"},
+				"south": {"uv": [14.25, 1.75, 16, 3.25], "texture": "#0"},
+				"west": {"uv": [12.5, 1.75, 14.25, 3.25], "texture": "#0"},
+				"up": {"uv": [12.5, 1.75, 10.75, 0], "texture": "#0"},
+				"down": {"uv": [14.25, 0, 12.5, 1.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, -0.75, 0],
+			"scale": [1.03, 1.03, 1.03]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

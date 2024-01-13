@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "particle": "dalekmod:block/classic_log_side",
+        "bottom": "dalekmod:block/classic_log_top",
+        "top": "dalekmod:block/classic_log_top",
+        "side": "dalekmod:block/classic_log_side"
+    }
+}

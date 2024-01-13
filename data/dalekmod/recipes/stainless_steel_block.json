@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"SSS",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"item": "dalekmod:stainless_steel_ingot"
+		}
+	},
+	"result": {
+		"item": "dalekmod:stainless_steel_block",
+		"count": 1
+	}
+}

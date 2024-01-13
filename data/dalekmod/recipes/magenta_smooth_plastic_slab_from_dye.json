@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_smooth_plastic_slab_dyed",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:white_smooth_plastic_slab"
+		},
+		"X": {
+			"tag": "forge:dyes/magenta"
+		}
+	},
+	"result": {
+		"item": "dalekmod:magenta_smooth_plastic_slab",
+		"count": 8
+	}
+}

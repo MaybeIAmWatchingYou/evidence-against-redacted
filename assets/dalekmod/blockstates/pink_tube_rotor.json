@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dalekmod:block/pink_tube_rotor_horizontal_alt",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dalekmod:block/pink_tube_rotor"
+    },
+    "axis=z": {
+      "model": "dalekmod:block/pink_tube_rotor_horizontal",
+      "z": 270
+    }
+  }
+}

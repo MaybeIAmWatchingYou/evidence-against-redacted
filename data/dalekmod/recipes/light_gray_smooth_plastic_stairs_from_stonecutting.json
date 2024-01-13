@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:light_gray_smooth_plastic"
+	},
+	"result": "dalekmod:light_gray_smooth_plastic_stairs",
+	"count": 1
+}

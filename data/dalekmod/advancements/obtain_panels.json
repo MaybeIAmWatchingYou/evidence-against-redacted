@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_core",
+  "display": {
+    "icon": {
+      "item": "dalekmod:tardis_panels"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_panels.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_panels.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_panels": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:tardis_panels"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_panels"
+    ]
+  ]
+}

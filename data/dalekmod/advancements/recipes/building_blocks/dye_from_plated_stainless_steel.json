@@ -1,0 +1,37 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_base": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:plated_stainless_steel"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_base"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:white_plated_stainless_steel",
+			"dalekmod:orange_plated_stainless_steel",
+			"dalekmod:magenta_plated_stainless_steel",
+			"dalekmod:light_blue_plated_stainless_steel",
+			"dalekmod:yellow_plated_stainless_steel",
+			"dalekmod:lime_plated_stainless_steel",
+			"dalekmod:pink_plated_stainless_steel",
+			"dalekmod:cyan_plated_stainless_steel",
+			"dalekmod:purple_plated_stainless_steel",
+			"dalekmod:blue_plated_stainless_steel",
+			"dalekmod:green_plated_stainless_steel",
+			"dalekmod:red_plated_stainless_steel",
+			"dalekmod:black_plated_stainless_steel"
+		]
+	}
+}

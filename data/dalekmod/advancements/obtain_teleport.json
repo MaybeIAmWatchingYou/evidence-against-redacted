@@ -1,0 +1,38 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:teleport_pad"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_teleport.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_teleport.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_teleport": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:teleport_pad"
+          },
+		  {
+			  "item": "dalekmod:teleport_receiver"
+		  }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_teleport"
+    ]
+  ]
+}

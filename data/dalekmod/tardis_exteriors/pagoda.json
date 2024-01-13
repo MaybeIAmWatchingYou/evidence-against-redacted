@@ -1,0 +1,23 @@
+{
+	"name": "dalekmod.tardis.name.pagoda",
+	"models": [
+		"dalekmod:models/tileentity/tardis/jade_pagoda.json",
+		"dalekmod:models/tileentity/tardis/stone_pagoda.json",
+		"dalekmod:models/tileentity/tardis/blackstone_pagoda.json",
+		"dalekmod:models/tileentity/tardis/quartz_pagoda.json",
+		"dalekmod:models/tileentity/tardis/purpur_pagoda.json",
+		"dalekmod:models/tileentity/tardis/sandstone_pagoda.json",
+		"dalekmod:models/tileentity/tardis/red_sandstone_pagoda.json",
+		"dalekmod:models/tileentity/tardis/oak_pagoda.json",
+		"dalekmod:models/tileentity/tardis/spruce_pagoda.json",
+		"dalekmod:models/tileentity/tardis/birch_pagoda.json",
+		"dalekmod:models/tileentity/tardis/jungle_pagoda.json",
+		"dalekmod:models/tileentity/tardis/acacia_pagoda.json",
+		"dalekmod:models/tileentity/tardis/dark_oak_pagoda.json",
+		"dalekmod:models/tileentity/tardis/crimson_pagoda.json",
+		"dalekmod:models/tileentity/tardis/warped_pagoda.json"
+	],
+	"cost": 200,
+	"unlockable": true,
+	"desc": "dalekmod.tardis.description.pagoda"
+}

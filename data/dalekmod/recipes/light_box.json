@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSG",
+		"SRG",
+		"SSG"
+	],
+	"key": {
+		"S": {
+			"tag": "forge:stone"
+		},
+		"R": {
+			"item": "minecraft:redstone_lamp"
+		},
+		"G": {
+			"item": "minecraft:glass"
+		}
+	},
+	"result": {
+		"item": "dalekmod:light_box",
+		"count": 4
+	}
+}

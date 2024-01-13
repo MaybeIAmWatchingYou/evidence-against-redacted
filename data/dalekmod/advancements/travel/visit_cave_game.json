@@ -1,0 +1,31 @@
+{
+  "parent": "dalekmod:travel/root",
+  "display": {
+    "icon": {
+      "item": "dalekmod:cave_game_grass"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.visit_cave_game.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.visit_cave_game.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "visit_cave_game": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dalekmod:cave_game"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "visit_cave_game"
+    ]
+  ]
+}

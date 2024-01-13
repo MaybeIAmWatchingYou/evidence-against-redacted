@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dalekmod:block/cyan_stainless_steel"
+  }
+}

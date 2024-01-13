@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:metalert_sheetwall"
+	},
+	"result": "dalekmod:emblemized_metalert_block",
+	"count": 1
+}

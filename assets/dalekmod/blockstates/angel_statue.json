@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model in dalekmod:tileentity/angel_statue.json",
+  "variants": {"": {"model": "minecraft:block/stone"}}
+}

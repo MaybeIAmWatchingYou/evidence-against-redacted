@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"IRI",
+		"GGG",
+		"IRI"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"G": {
+			"item": "minecraft:gunpowder"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:explosive_device",
+		"count": 2
+	}
+}

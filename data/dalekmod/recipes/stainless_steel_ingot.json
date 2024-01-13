@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"tag": "forge:ingots/steel"
+		},
+		{
+			"item": "minecraft:honeycomb"
+		}
+	],
+	"result":
+	{
+		"item": "dalekmod:stainless_steel_ingot",
+		"count": 1
+	}
+}

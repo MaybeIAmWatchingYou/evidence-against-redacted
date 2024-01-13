@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_resource": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "forge:liquids/artron"
+					},
+					{
+						"tag": "dalekmod:artron"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:tardis_key"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_resource",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:tardis_key",
+			"dalekmod:tardis_spade_key",
+			"dalekmod:tardis_fan_key",
+			"dalekmod:tardis_lockpick_key"
+		]
+	}
+}

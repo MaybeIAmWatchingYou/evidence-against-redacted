@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:dark_oak_log"
+		}
+	],
+	"result": {
+		"item": "dalekmod:dark_oak_log_roundel"
+	}
+}

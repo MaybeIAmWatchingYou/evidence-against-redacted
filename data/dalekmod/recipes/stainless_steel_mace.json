@@ -1,0 +1,21 @@
+{
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+				" XX",
+				" XX",
+				"#  "
+		],
+		"key": {
+				"X": {
+						"tag": "forge:ingots/stainless_steel"
+				},
+				"#": {
+						"tag": "forge:rods/steel"
+				}
+		},
+		"result":
+		{
+				"item": "dalekmod:stainless_steel_mace",
+				"count": 1
+		}
+}

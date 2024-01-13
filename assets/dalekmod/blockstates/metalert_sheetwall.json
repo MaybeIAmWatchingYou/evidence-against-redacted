@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dalekmod:block/metalert_sheetwall_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dalekmod:block/metalert_sheetwall"
+    },
+    "axis=z": {
+      "model": "dalekmod:block/metalert_sheetwall_horizontal",
+      "x": 90
+    }
+  }
+}

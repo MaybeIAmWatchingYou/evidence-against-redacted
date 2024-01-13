@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SCS",
+		"CDC",
+		"SCS"
+	],
+	"key": {
+		"S": {
+			"item": "dalekmod:refined_sonic_crystal"
+		},
+		"C": {
+			"item": "dalekmod:crystaline"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "dalekmod:sonic_emitter",
+		"count": 1
+	}
+}

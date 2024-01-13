@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_steel",
+  "display": {
+    "icon": {
+      "item": "dalekmod:storage_vault"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_vault.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_vault.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_vault": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:storage_vault"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_vault"
+    ]
+  ]
+}

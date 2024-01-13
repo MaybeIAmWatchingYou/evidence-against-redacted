@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": [
+			{
+				"item": "dalekmod:scorched_chiseled_quartz_block"
+			},
+			{
+				"item": "dalekmod:scorched_quartz_block"
+			},
+			{
+				"item": "dalekmod:scorched_quartz_pillar"
+			}
+		]
+	},
+	"result": {
+		"item": "dalekmod:scorched_quartz_slab",
+		"count": 6
+	}
+}

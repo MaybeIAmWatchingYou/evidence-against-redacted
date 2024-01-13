@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/ender_dalek",
+   "lightmap": "dalekmod:entity/dalek/ender_dalek_lightmap",
+   "parent": "dalekmod:models/entity/dalek/time_war_dalek"
+}

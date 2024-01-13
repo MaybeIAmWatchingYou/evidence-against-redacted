@@ -1,0 +1,5 @@
+{
+	"texture": "dalekmod:tileentity/tardis/2017_police_box",
+	"lightmap": "dalekmod:tileentity/tardis/tribute_police_box_lightmap",
+	"parent": "dalekmod:models/tileentity/tardis/2010_police_box"
+}

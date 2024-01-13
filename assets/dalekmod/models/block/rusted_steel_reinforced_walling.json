@@ -1,0 +1,7 @@
+{
+    "parent": "dalekmod:block/roundel",
+    "textures": {
+        "main": "dalekmod:block/rusted_steel_reinforced_walling",
+        "alt": "dalekmod:block/rusted_steel_reinforced_walling_alt"
+    }
+}

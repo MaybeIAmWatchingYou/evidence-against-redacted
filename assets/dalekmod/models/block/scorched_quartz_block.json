@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dalekmod:block/scorched_quartz_block_top",
+    "side": "dalekmod:block/scorched_quartz_block_side"
+  }
+}

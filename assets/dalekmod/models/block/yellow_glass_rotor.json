@@ -1,0 +1,6 @@
+{
+  "parent": "dalekmod:block/glass_rotor",
+	"textures": {
+		"7": "dalekmod:block/yellow_glass_rotor_internal"
+	}
+}

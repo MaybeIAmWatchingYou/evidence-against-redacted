@@ -1,0 +1,56 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_steel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:steel_ingot"
+					}
+				]
+			}
+		},
+		"has_the_hoe_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:steel_hoe"
+			}
+		},
+		"has_the_pick_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:steel_pickaxe"
+			}
+		},
+		"has_the_shovel_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:steel_shovel"
+			}
+		},
+		"has_the_axe_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:steel_battleaxe"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_steel",
+			"has_the_hoe_recipe",
+			"has_the_pick_recipe",
+			"has_the_shovel_recipe",
+			"has_the_axe_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:steel_battleaxe",
+			"dalekmod:steel_hoe",
+			"dalekmod:steel_shovel",
+			"dalekmod:steel_pickaxe"
+		]
+	}
+}

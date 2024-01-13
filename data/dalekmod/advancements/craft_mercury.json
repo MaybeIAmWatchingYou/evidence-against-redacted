@@ -1,0 +1,35 @@
+{
+	"parent": "dalekmod:find_meteorite",
+	"display": {
+		"icon": {
+			"item": "dalekmod:mercury"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.craft_mercury.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.craft_mercury.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_mercury": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:mercury"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft_mercury"
+		]
+	]
+}

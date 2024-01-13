@@ -1,0 +1,44 @@
+{
+	"effects": {
+		"sky_color": 9885180,
+		"fog_color": 16777215,
+		"water_color": 22015,
+		"water_fog_color": 329011
+	},
+	"carvers": {
+		"air": [
+			"dalekmod:classic_carver"
+		]
+	},
+	"starts": [],
+	"features": [
+		["dalekmod:infdev_sand_beach","dalekmod:classic_trees","dalekmod:classic_flowers_red","dalekmod:classic_flowers_yellow"],
+		[],
+		[],
+		["minecraft:monster_room"],
+		["dalekmod:infdev_coal","dalekmod:infdev_iron","dalekmod:infdev_gold","dalekmod:infdev_diamond"],
+		[],
+		[],
+		[],
+		[],
+		[]
+	],
+	"spawners": {
+		"ambient": [],
+		"creature": [],
+		"misc": [],
+		"monster": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"category": "plains",
+	"precipitation": "none",
+	"surface_builder": "dalekmod:classic_sb",
+	"scale": 0.75,
+	"downfall": 0.0,
+	"depth": 0.1,
+	"temperature": 2,
+	"player_spawn_friendly": true,
+	"spawn_costs": {},
+	"creature_spawn_probability": 0
+}

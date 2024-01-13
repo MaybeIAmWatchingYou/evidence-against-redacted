@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_plastic",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:white_plastic"
+		},
+		"X": {
+			"tag": "forge:dyes/yellow"
+		}
+	},
+	"result": {
+		"item": "dalekmod:yellow_plastic",
+		"count": 8
+	}
+}

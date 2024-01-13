@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:scorched_quartz_block"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:scorched_quartz_bricks"
+			}
+		},
+		"has_the_recipe_stonecutter": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:scorched_quartz_bricks_from_quartz_block_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz",
+			"has_the_recipe",
+			"has_the_recipe_stonecutter"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:scorched_quartz_bricks",
+			"dalekmod:scorched_quartz_bricks_from_quartz_block_stonecutting"
+		]
+	}
+}

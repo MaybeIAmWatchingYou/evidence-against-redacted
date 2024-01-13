@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/advanced_invasion_dalek_gold",
+   "lightmap": "dalekmod:entity/dalek/advanced_invasion_dalek_gold_lightmap",
+   "parent": "dalekmod:models/entity/dalek/advanced_invasion_dalek"
+}

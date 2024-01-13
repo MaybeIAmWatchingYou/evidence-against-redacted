@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "dalekmod:block/explosive_bubble_wrap"
+  }
+}

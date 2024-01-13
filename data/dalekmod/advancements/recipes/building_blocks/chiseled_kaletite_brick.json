@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:kaletite_brick"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:chiseled_kaletite_brick_from_kaletite_brick_stonecutter"
+			}
+		},
+		"has_the_recipe_a": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:chiseled_kaletite_brick_from_kaletite_stonecutter"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ingot",
+			"has_the_recipe",
+			"has_the_recipe_a"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:chiseled_kaletite_brick_from_kaletite_brick_stonecutter",
+			"dalekmod:chiseled_kaletite_brick_from_kaletite_stonecutter"
+		]
+	}
+}

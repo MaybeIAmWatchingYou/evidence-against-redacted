@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model in dalekmod:tileentity/scanner.json",
+  "variants": {"": {"model": "dalekmod:block/scanner"}}
+}

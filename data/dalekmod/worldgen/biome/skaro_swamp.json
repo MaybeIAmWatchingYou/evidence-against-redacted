@@ -1,0 +1,81 @@
+{
+	"effects":
+	{
+		"mood_sound":
+		{
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"sky_color": 14600415,
+		"fog_color": 12953765,
+		"water_color": 5073781,
+		"water_fog_color": 3422790,
+		"grass_color": 7765886,
+		"foliage_color": 8097417,
+		"particle":
+		{
+			"options":
+			{
+				"type": "minecraft:ash"
+			},
+			"probability": 0.015
+			}
+	},
+	"carvers":
+	{
+		"air":
+		[
+			"dalekmod:skaro_carver",
+			"minecraft:canyon"
+		]
+	},
+	"starts":
+	[
+	],
+    "features":[
+        [],
+        ["minecraft:lake_water","minecraft:lake_lava"],
+        [],
+        [],
+        [],
+        [],
+        ["dalekmod:skaro_dalekanium"],
+        [],
+        ["minecraft:seagrass_swamp"],
+        []
+    ],
+	"spawners":
+	{
+		"ambient":
+		[
+		],
+		"creature":
+		[
+		],
+		"misc":
+		[
+		],
+		"monster":
+		[
+		],
+		"water_ambient":
+		[
+		],
+		"water_creature":
+		[
+		]
+	},
+	"category": "swamp",
+	"precipitation": "none",
+	"surface_builder": "dalekmod:cindergrass_sb",
+	"scale": 0.1,
+	"downfall": 0.9,
+	"depth": -0.26,
+	"temperature": 0.8,
+	"player_spawn_friendly": true,
+	"spawn_costs":
+	{
+	}
+}

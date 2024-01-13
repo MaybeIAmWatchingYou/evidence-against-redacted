@@ -1,0 +1,28 @@
+{
+	"parent": "dalekmod:enter_tardis",
+	"display": {
+		"icon": {
+			"item": "dalekmod:chameleon_cartridge"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.chameleon.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.chameleon.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"chameleon": {
+			"trigger": "dalekmod:exterior_unlock"
+		}
+	},
+	"requirements": [
+		[
+			"chameleon"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:silicate_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:silicon"
+			}
+		},
+		"has_the_blast_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:silicon_from_blasting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ore",
+			"has_the_recipe",
+			"has_the_blast_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:silicon",
+			"dalekmod:silicon_from_blasting"
+		]
+	}
+}

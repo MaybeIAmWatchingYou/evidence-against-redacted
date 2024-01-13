@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "fez",
+	"pattern": [
+		" S ",
+		"WWW",
+		"W W"
+	],
+	"key": {
+		"W": {
+			"item": "minecraft:purple_wool"
+		},
+		"S": {
+			"item": "minecraft:string"
+		}
+	},
+	"result": {
+		"item": "dalekmod:purple_fez",
+		"count": 1
+	}
+}

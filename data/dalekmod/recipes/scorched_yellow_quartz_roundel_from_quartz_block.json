@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "dalekmod:scorched_quartz_block"
+		}
+	],
+	"result": {
+		"item": "dalekmod:scorched_yellow_quartz_roundel"
+	}
+}

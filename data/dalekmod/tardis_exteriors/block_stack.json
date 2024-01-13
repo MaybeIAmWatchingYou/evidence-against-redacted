@@ -1,0 +1,28 @@
+{
+	"name": "dalekmod.tardis.name.block_stack",
+	"models": [
+		"dalekmod:models/tileentity/tardis/oak_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/birch_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/spruce_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/jungle_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/acacia_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/dark_oak_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/crimson_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/warped_planks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/cobblestone_block_stack.json",
+		"dalekmod:models/tileentity/tardis/stone_bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/prismarine_bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/quartz_bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/nether_bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/blackstone_bricks_block_stack.json",
+		"dalekmod:models/tileentity/tardis/endstone_bricks_block_stack.json"
+	],
+	"cost": 216,
+	"unlockable": true,
+	"desc": "dalekmod.tardis.description.block_stack",
+	"sounds": {
+		"open": "minecraft:block.wooden_door.open",
+		"close": "minecraft:block.wooden_door.close"
+	}
+}

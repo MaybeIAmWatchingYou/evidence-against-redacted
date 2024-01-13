@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"EME",
+		"MIM"
+	],
+	"key": {
+		"M": {
+			"item": "dalekmod:silicon"
+		},
+		"E": {
+			"tag": "forge:glass_panes"
+		},
+		"I": {
+			"tag": "forge:ingots/stainless_steel"
+		}
+	},
+	"result": {
+		"item": "dalekmod:gas_mask",
+		"count": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "dalekmod:dark_star_remnant"
+	},
+	"result": "dalekmod:dark_star_dust",
+	"experience": 0.7,
+	"cookingtime": 100
+}

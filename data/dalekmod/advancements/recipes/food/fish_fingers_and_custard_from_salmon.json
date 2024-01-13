@@ -1,0 +1,37 @@
+{
+	"criteria": {
+		"has_items": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cooked_salmon"
+					},
+					{
+						"item": "minecraft:milk_bucket"
+					},
+					{
+						"item": "minecraft:egg"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:fish_finger_and_custard"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_items",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:fish_finger_and_custard"
+		]
+	}
+}

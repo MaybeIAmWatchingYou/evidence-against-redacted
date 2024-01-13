@@ -1,0 +1,80 @@
+{
+	"effects":
+	{
+		"mood_sound":
+		{
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"sky_color": 14600415,
+		"fog_color": 12953765,
+		"water_color": 5073781,
+		"water_fog_color": 3422790,
+		"grass_color": 7765886,
+		"foliage_color": 8097417,
+		"particle":
+		{
+			"options":
+			{
+				"type": "minecraft:ash"
+			},
+			"probability": 0.010
+			}
+	},
+	"carvers":
+	{
+		"air":
+		[
+			"dalekmod:skaro_carver"
+		]
+	},
+	"starts":
+	[
+	],
+	"features":[
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        ["dalekmod:skaro_dalekanium"],
+        [],
+        [],
+        ["minecraft:freeze_top_layer"]
+    ],
+	"spawners":
+	{
+		"ambient":
+		[
+		],
+		"creature":
+		[
+		],
+		"misc":
+		[
+		],
+		"monster":
+		[
+		],
+		"water_ambient":
+		[
+		],
+		"water_creature":
+		[
+		]
+	},
+	"category": "taiga",
+	"precipitation": "snow",
+	"surface_builder": "dalekmod:cindergrass_sb",
+	"scale": 0.9,
+	"downfall": 0.4,
+	"depth": 0.7,
+	"temperature": 0.0,
+	"player_spawn_friendly": true,
+	"spawn_costs":
+	{
+	}
+}

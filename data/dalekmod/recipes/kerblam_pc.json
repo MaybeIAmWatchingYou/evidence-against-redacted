@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SCS",
+        "RLR",
+        "SDS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stone"
+        },
+        "C": {
+            "item": "dalekmod:sonic_emitter"
+        },
+        "R": {
+            "tag": "forge:circuits/basic"
+        },
+        "L": {
+            "item": "minecraft:redstone_lamp"
+        },
+        "D": {
+            "item": "dalekmod:data_writer"
+        }
+    },
+    "result": {
+        "item": "dalekmod:kerblam_computer",
+        "count": 1
+    }
+}

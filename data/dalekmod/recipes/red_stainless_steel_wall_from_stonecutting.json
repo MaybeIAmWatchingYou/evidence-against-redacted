@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:red_stainless_steel"
+	},
+	"result": "dalekmod:red_stainless_steel_wall",
+	"count": 1
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BBB",
+		"BRB",
+		"BBB"
+	],
+	"key": {
+		"B": {
+			"tag": "forge:ingots/brass"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		}
+	},
+	"result": {
+		"item": "dalekmod:brass_cog",
+		"count": 4
+	}
+}

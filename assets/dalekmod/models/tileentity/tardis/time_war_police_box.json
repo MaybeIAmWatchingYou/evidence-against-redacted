@@ -1,0 +1,5 @@
+{
+	"texture": "dalekmod:tileentity/tardis/time_war_police_box",
+	"lightmap": "dalekmod:tileentity/tardis/time_war_police_box_lightmap",
+	"parent": "dalekmod:models/tileentity/tardis/2005_police_box"
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_kerblam_pc",
+  "display": {
+    "icon": {
+      "item": "dalekmod:kerblam_box"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_kerblam.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_kerblam.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_delivery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:kerblam_box"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_delivery"
+    ]
+  ]
+}

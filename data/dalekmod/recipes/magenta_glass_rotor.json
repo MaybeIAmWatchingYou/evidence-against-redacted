@@ -1,0 +1,14 @@
+{
+		"type": "minecraft:crafting_shapeless",
+		"group": "dyed_glass_rotor_dyed",
+		"ingredients": [{
+						"item": "dalekmod:glass_rotor"
+				},
+				{
+						"tag": "forge:dyes/magenta"
+				}
+		],
+		"result": {
+				"item": "dalekmod:magenta_glass_rotor"
+		}
+}

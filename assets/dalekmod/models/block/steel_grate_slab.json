@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dalekmod:block/steel_grate",
+    "top": "dalekmod:block/steel_grate",
+    "side": "dalekmod:block/steel_grate_slab"
+  }
+}

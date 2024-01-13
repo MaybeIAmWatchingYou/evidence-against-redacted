@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_pure_dalekanium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:dalekanium_concentrate"
+					}
+				]
+			}
+		},
+		"has_the_sword_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:pure_dalekanium_sword"
+			}
+		},
+		"has_the_mace_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:pure_dalekanium_mace"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_pure_dalekanium",
+			"has_the_sword_recipe",
+			"has_the_mace_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:pure_dalekanium_sword",
+			"dalekmod:pure_dalekanium_mace"
+		]
+	}
+}

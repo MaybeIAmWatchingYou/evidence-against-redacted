@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "dalekmod:block/steel_slab" },
+    "type=top": { "model": "dalekmod:block/steel_slab_top" },
+    "type=double": { "model": "dalekmod:block/steel_slab_double" }
+  }
+}

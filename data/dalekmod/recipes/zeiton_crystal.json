@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "dalekmod:zeiton_ore"
+	},
+	"result": "dalekmod:zeiton_crystal",
+	"experience": 0.7,
+	"cookingtime": 200
+}

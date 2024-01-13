@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:dalekanium_block",
+		"dalekmod:refined_dalekanium_block",
+		"dalekmod:pure_dalekanium_block",
+		"dalekmod:dalekanium_ingot",
+		"dalekmod:refined_dalekanium_ingot"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "dalekmod:dalekanium_block"
+	},
+	"result": "dalekmod:dalekanium_sheetwall",
+	"count": 1
+}

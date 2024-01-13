@@ -1,0 +1,14 @@
+{
+	"type": "dalekmod:roundel_builder",
+	"ingredients": [
+		{
+			"item": "dalekmod:roundel_mold"
+		},
+		{
+			"item": "minecraft:stripped_acacia_log"
+		}
+	],
+	"result": {
+		"item": "dalekmod:stripped_acacia_roundel"
+	}
+}

@@ -1,0 +1,21 @@
+{
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+				" XX",
+				" XX",
+				"#  "
+		],
+		"key": {
+				"X": {
+						"tag": "forge:ingots/steel"
+				},
+				"#": {
+						"item": "minecraft:stick"
+				}
+		},
+		"result":
+		{
+				"item": "dalekmod:steel_mace",
+				"count": 1
+		}
+}

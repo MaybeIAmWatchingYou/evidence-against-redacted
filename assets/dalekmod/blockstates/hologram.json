@@ -1,0 +1,4 @@
+{
+  "comment": "File used for particles; model generated from player models",
+  "variants": {"": {"model": "dalekmod:block/hologram_panel"}}
+}

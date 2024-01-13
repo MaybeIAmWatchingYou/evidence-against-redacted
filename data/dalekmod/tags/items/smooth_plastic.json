@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"dalekmod:white_smooth_plastic",
+		"dalekmod:orange_smooth_plastic",
+		"dalekmod:magenta_smooth_plastic",
+		"dalekmod:light_blue_smooth_plastic",
+		"dalekmod:yellow_smooth_plastic",
+		"dalekmod:lime_smooth_plastic",
+		"dalekmod:pink_smooth_plastic",
+		"dalekmod:gray_smooth_plastic",
+		"dalekmod:light_gray_smooth_plastic",
+		"dalekmod:cyan_smooth_plastic",
+		"dalekmod:purple_smooth_plastic",
+		"dalekmod:blue_smooth_plastic",
+		"dalekmod:brown_smooth_plastic",
+		"dalekmod:green_smooth_plastic",
+		"dalekmod:red_smooth_plastic",
+		"dalekmod:black_smooth_plastic"
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "dalekmod:obtain_circuit",
+  "display": {
+    "icon": {
+      "item": "dalekmod:sonic_screwdriver"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.obtain_sonic.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.obtain_sonic.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_sonic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dalekmod:sonic_screwdriver"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_sonic"
+    ]
+  ]
+}

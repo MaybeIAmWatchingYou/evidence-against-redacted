@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"X#X",
+		" # "
+	],
+	"key": {
+		"#": {
+			"tag": "forge:rods/steel"
+		},
+		"X": {
+			"tag": "forge:ingots/stainless_steel"
+		}
+	},
+	"result": {
+		"item": "dalekmod:stainless_steel_battleaxe"
+	}
+}

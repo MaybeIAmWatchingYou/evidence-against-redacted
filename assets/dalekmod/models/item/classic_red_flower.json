@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "dalekmod:block/classic_red_flower"
+    }
+}

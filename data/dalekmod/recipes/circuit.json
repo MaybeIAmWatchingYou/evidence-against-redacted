@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" R ",
+		"ISG",
+		" R "
+	],
+	"key": {
+		"R": {
+			"tag": "forge:dusts/redstone"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"G": {
+			"tag": "forge:ingots/gold"
+		},
+		"S": {
+			"tag": "forge:gems/silicon"
+		}
+	},
+	"result": {
+		"item": "dalekmod:circuit",
+		"count": 1
+	}
+}

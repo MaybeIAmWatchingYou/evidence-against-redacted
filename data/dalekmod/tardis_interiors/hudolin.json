@@ -1,0 +1,283 @@
+{
+	"defaultSpawnRotation": 180,
+	"doorOffset": [12, 20, 28.5],
+	"interiorName": "Police Box Hudolin",
+	"interiorFile": "dalekmod:hudolin",
+	"previewImage": "dalekmod:textures/gui/interior_selection/hudolin.png",
+	"xOffset": 0,
+	"yOffset": -2,
+	"zOffset": 0,
+	"recipe": {
+		"parts": [
+			{
+				"item": "minecraft:black_stained_glass",
+				"quantity": 1344
+			},
+			{
+				"item": "minecraft:black_concrete",
+				"quantity": 990
+			},
+			{
+				"item": "minecraft:green_terracotta",
+				"quantity": 396
+			},
+			{
+				"item": "minecraft:smooth_stone_slab",
+				"quantity": 142
+			},
+			{
+				"item": "minecraft:stone",
+				"quantity": 466
+			},
+			{
+				"item": "minecraft:dark_oak_wood",
+				"quantity": 154
+			},
+			{
+				"item": "minecraft:spruce_log",
+				"quantity": 119
+			},
+			{
+				"item": "minecraft:dark_oak_planks",
+				"quantity": 243
+			},
+			{
+				"item": "minecraft:stone_bricks",
+				"quantity": 88
+			},
+			{
+				"item": "minecraft:dark_oak_slab",
+				"quantity": 124
+			},
+			{
+				"item": "dalekmod:brown_smooth_plastic",
+				"quantity": 89
+			},
+			{
+				"item": "minecraft:bookshelf",
+				"quantity": 57
+			},
+			{
+				"item": "dalekmod:gray_smooth_plastic",
+				"quantity": 55
+			},
+			{
+				"item": "minecraft:end_rod",
+				"quantity": 113
+			},
+			{
+				"item": "dalekmod:steel_beams",
+				"quantity": 48
+			},
+			{
+				"item": "minecraft:polished_andesite",
+				"quantity": 8
+			},			
+			{
+				"item": "minecraft:stone_brick_stairs",
+				"quantity": 24
+			},
+			{
+				"item": "dalekmod:black_plastic",
+				"quantity": 20
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic_slab",
+				"quantity": 18
+			},
+			{
+				"item": "dalekmod:black_smooth_plastic",
+				"quantity": 37
+			},
+			{
+				"item": "minecraft:quartz_block",
+				"quantity": 22
+			},
+			{
+				"item": "minecraft:spruce_trapdoor",
+				"quantity": 21
+			},
+			{
+				"item": "minecraft:polished_andesite_stairs",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:flower_pot",
+				"quantity": 3
+			},
+			{
+				"item": "minecraft:soul_lantern",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:iron_bars",
+				"quantity": 22
+			},
+			{
+				"item": "minecraft:oak_sign",
+				"quantity": 3
+			},
+			{
+				"item": "minecraft:dark_oak_sign",
+				"quantity": 7
+			},
+			{
+				"item": "minecraft:dark_oak_trapdoor",
+				"quantity": 28
+			},
+			{
+				"item": "minecraft:red_carpet",
+				"quantity": 16
+			},
+			{
+				"item": "minecraft:dark_oak_fence",
+				"quantity": 26
+			},
+			{
+				"item": "minecraft:spruce_button",
+				"quantity": 18
+			},
+			{
+				"item": "minecraft:chest",
+				"quantity": 16
+			},
+			{
+				"item": "minecraft:loom",
+				"quantity": 3
+			},
+			{
+				"item": "dalekmod:blue_tube_rotor",
+				"quantity": 5
+			},
+			{
+				"item": "minecraft:black_wool",
+				"quantity": 5
+			},
+			{
+				"item": "minecraft:chain",
+				"quantity": 3
+			},
+			{
+				"item": "minecraft:ladder",
+				"quantity": 3
+			},
+			{
+				"item": "dalekmod:swd_statue",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:dark_oak_door",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:dark_oak_stairs",
+				"quantity": 19
+			},
+			{
+				"item": "minecraft:scaffolding",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:brown_carpet",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:spruce_planks",
+				"quantity": 2
+			},
+			{
+				"item": "dalekmod:steel_slab",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:polished_blackstone_button",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:steel_stairs",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:gold_block",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:lantern",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:spruce_stairs",
+				"quantity": 8
+			},
+			{
+				"item": "minecraft:green_carpet",
+				"quantity": 6
+			},
+			{
+				"item": "minecraft:spruce_slab",
+				"quantity": 4
+			},
+			{
+				"item": "minecraft:stone_slab",
+				"quantity": 6
+			},
+			{
+				"item": "dalekmod:roundel_door",
+				"quantity": 2
+			},
+			{
+				"item": "minecraft:oak_leaves",
+				"quantity": 22
+			},
+			{
+				"item": "dalekmod:tardis_door_hitbox",
+				"quantity": 6
+			},
+			{
+				"item": "dalekmod:coord_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fault_locator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:fast_return_lever",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:chameleon_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:flight_lever",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:oak_sapling",
+				"quantity": 1
+			},
+			{
+				"item": "minecraft:dark_oak_sapling",
+				"quantity": 2
+			},
+			{
+				"item": "dalekmod:light_alternator",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:waypoint_panel",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:scanner",
+				"quantity": 1
+			},
+			{
+				"item": "dalekmod:dimension_selector_panel",
+				"quantity": 1
+			}
+
+		]
+	}
+}

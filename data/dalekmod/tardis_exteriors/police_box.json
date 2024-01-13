@@ -1,0 +1,22 @@
+{
+	"name": "dalekmod.tardis.name.police_box",
+	"models": [
+		"dalekmod:models/tileentity/tardis/1963_police_box.json",
+		"dalekmod:models/tileentity/tardis/1967_police_box.json",
+		"dalekmod:models/tileentity/tardis/1970_police_box.json",
+		"dalekmod:models/tileentity/tardis/1976_police_box.json",
+		"dalekmod:models/tileentity/tardis/1980_police_box.json",
+		"dalekmod:models/tileentity/tardis/happiness_police_box.json",
+		"dalekmod:models/tileentity/tardis/1996_police_box.json",
+		"dalekmod:models/tileentity/tardis/time_war_police_box.json",
+		"dalekmod:models/tileentity/tardis/2005_police_box.json",
+		"dalekmod:models/tileentity/tardis/2010_police_box.json",
+		"dalekmod:models/tileentity/tardis/2013_police_box.json",
+		"dalekmod:models/tileentity/tardis/2017_police_box.json",
+		"dalekmod:models/tileentity/tardis/2018_police_box.json",
+		"dalekmod:models/tileentity/tardis/time_fracture_police_box.json"
+	],
+	"cost": 100,
+	"unlockable": true,
+	"desc": "dalekmod.tardis.description.police_box"
+}

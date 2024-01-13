@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "dalekmod:block/classic_red_flower"
+    }
+}

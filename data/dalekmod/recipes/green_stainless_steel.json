@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "dyed_stainless_steel",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "dalekmod:stainless_steel_block"
+		},
+		"X": {
+			"tag": "forge:dyes/green"
+		}
+	},
+	"result": {
+		"item": "dalekmod:green_stainless_steel",
+		"count": 8
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" D ",
+		"CRW",
+		" H "
+	],
+	"key": {
+		"R": {
+			"item": "dalekmod:glass_rotor"
+		},
+		"C": {
+			"item": "dalekmod:coord_panel"
+		},
+		"D": {
+			"item": "dalekmod:dimension_selector_panel"
+		},
+		"W": {
+			"item": "dalekmod:waypoint_panel"
+		},
+		"H": {
+			"item": "dalekmod:chameleon_panel"
+		}
+	},
+	"result": {
+		"item": "dalekmod:tardis_panels",
+		"count": 1
+	}
+}

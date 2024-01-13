@@ -1,0 +1,70 @@
+{
+	"default_rotation": 180,
+	"door_offset": [ 14.5, 23, 24.5 ],
+	"block_offset": [ 0, -2, 0 ],
+	"name": "dalekmod.interior.name.booth_default",
+	"schematic": "dalekmod:booth_default",
+	"preview": "dalekmod:textures/gui/interior_selection/booth_default.png",
+	"lighting": {
+		"left": 50,
+		"right": 60
+	},
+	"recipe": [
+		{
+			"item": "dalekmod:plastic_chunk",
+			"quantity": 512
+		},
+		{
+			"item": "dalekmod:stainless_steel_ingot",
+			"quantity": 512
+		},
+		{
+			"item": "dalekmod:steel_ingot",
+			"quantity": 512
+		},
+		{
+			"item": "dalekmod:light_box",
+			"quantity": 64
+		},
+		{
+			"item": "dalekmod:ship_light",
+			"quantity": 128
+		},
+		{
+			"item": "dalekmod:coord_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:dimension_selector_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:waypoint_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:chameleon_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:flight_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fast_return_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:scanner",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fault_locator",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:glass_rotor",
+			"quantity": 1
+		}
+	]
+}

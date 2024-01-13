@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"GRG",
+		"GDG",
+		"GRG"
+	],
+	"key": {
+		"G": {
+			"tag": "forge:glass/colorless"
+		},
+		"R": {
+			"item": "minecraft:end_rod"
+		},
+	"D": {
+		"tag": "forge:dyes/green"
+	}
+	},
+	"result": {
+		"item": "dalekmod:green_tube_rotor",
+		"count": 4
+	}
+}

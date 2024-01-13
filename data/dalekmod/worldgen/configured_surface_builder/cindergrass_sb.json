@@ -1,0 +1,17 @@
+{
+	"config": {
+		"top_material": {
+			"Properties": {
+				"snowy": "false"
+			},
+			"Name": "dalekmod:cindergrass"
+		},
+		"under_material": {
+			"Name": "dalekmod:cindersoil"
+		},
+		"underwater_material": {
+			"Name": "dalekmod:cindersoil"
+		}
+	},
+	"type": "minecraft:default"
+}

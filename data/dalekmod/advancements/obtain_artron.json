@@ -1,0 +1,35 @@
+{
+	"parent": "dalekmod:root",
+	"display": {
+		"icon": {
+			"item": "dalekmod:artron_full"
+		},
+		"title": {
+			"translate": "advancements.dalekmod.obtain_artron.title"
+		},
+		"description": {
+			"translate": "advancements.dalekmod.obtain_artron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_artron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "dalekmod:artron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtain_artron"
+		]
+	]
+}

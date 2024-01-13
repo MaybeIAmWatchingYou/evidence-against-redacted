@@ -1,0 +1,40 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_plastic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:yellow_smooth_plastic"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:yellow_smooth_plastic_slab"
+			}
+		},
+		"has_the_recipe_stonecutter": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:yellow_smooth_plastic_slab_from_stonecutting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_plastic",
+			"has_the_recipe",
+			"has_the_recipe_stonecutter"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:yellow_smooth_plastic_slab",
+			"dalekmod:yellow_smooth_plastic_slab_from_stonecutting"
+		]
+	}
+}

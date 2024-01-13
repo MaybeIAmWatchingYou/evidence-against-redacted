@@ -1,0 +1,19 @@
+{
+	"credit": "Made by Bug1312",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dalekmod:block/gear",
+		"texture": "dalekmod:block/gear"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 15.2],
+			"to": [16, 16, 15.2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#texture"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#texture"}
+			}
+		}
+	]
+}

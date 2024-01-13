@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_ingot"
+					}
+				]
+			}
+		},
+		"has_gun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gunpowder"
+					}
+				]
+			}
+		},
+		"has_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:redstone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:explosive_device"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_iron",
+			"has_gun",
+			"has_dust",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:explosive_device"
+		]
+	}
+}

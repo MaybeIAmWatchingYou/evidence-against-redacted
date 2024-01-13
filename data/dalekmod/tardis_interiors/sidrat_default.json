@@ -1,0 +1,62 @@
+{
+	"default_rotation": 180,
+	"door_offset": [ 16, 20, 21.5 ],
+	"block_offset": [ 0, -2, 0 ],
+	"name": "dalekmod.interior.name.sidrat_default",
+	"schematic": "dalekmod:sidrat_default",
+	"preview": "dalekmod:textures/gui/interior_selection/sidrat_default.png",
+	"recipe": [
+		{
+			"item": "minecraft:quartz",
+			"quantity": 512
+		},
+		{
+			"item": "dalekmod:plastic_chunk",
+			"quantity": 256
+		},
+		{
+			"item": "dalekmod:ship_light",
+			"quantity": 64
+		},
+		{
+			"item": "dalekmod:light_box",
+			"quantity": 32
+		},
+		{
+			"item": "dalekmod:coord_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:dimension_selector_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:waypoint_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:chameleon_panel",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:flight_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fast_return_lever",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:scanner",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:fault_locator",
+			"quantity": 1
+		},
+		{
+			"item": "dalekmod:glass_rotor",
+			"quantity": 1
+		}
+	]
+}

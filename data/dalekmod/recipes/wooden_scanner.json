@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"SGS",
+		"CCC"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:glass"
+		},
+		"C": {
+			"item": "dalekmod:circuit"
+		},
+		"S": {
+			"item": "minecraft:stripped_spruce_log"
+		}
+	},
+	"result": {
+		"item": "dalekmod:wooden_scanner",
+		"count": 1
+	}
+}

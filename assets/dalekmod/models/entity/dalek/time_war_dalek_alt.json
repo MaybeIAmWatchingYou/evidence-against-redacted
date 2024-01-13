@@ -1,0 +1,5 @@
+{
+   "texture": "dalekmod:entity/dalek/time_war_dalek_alt",
+   "lightmap": "dalekmod:entity/dalek/time_war_dalek_lightmap",
+   "parent": "dalekmod:models/entity/dalek/time_war_dalek"
+}

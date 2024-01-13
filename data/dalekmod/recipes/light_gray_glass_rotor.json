@@ -1,0 +1,14 @@
+{
+		"type": "minecraft:crafting_shapeless",
+		"group": "dyed_glass_rotor_dyed",
+		"ingredients": [{
+						"item": "dalekmod:glass_rotor"
+				},
+				{
+						"tag": "forge:dyes/light_gray"
+				}
+		],
+		"result": {
+				"item": "dalekmod:light_gray_glass_rotor"
+		}
+}

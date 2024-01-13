@@ -1,0 +1,54 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_bread": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bread"
+					}
+				]
+			}
+		},
+		"has_meat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:kronkmeat"
+					}
+				]
+			}
+		},
+		"has_cheese": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "dalekmod:cheese"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "dalekmod:kronkburger"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_bread",
+			"has_meat",
+			"has_cheese",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"dalekmod:kronkburger"
+		]
+	}
+}

@@ -1,0 +1,154 @@
+{
+	"credit": "1WTC",
+	"texture": "dalekmod:tileentity/tardis/dalek_mod_2013",
+	"lightmap": "dalekmod:tileentity/tardis/dalek_mod_2013_lightmap",
+	"texture_width": 256,
+	"texture_height": 256,
+	"scale": 0.88,
+	"groups": [
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [0,38],
+					"size": [32,1,32],
+					"origin": [-16,-1,-16],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [90,74],
+					"size": [1,46,30],
+					"origin": [-15,-47,-15],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [60,104],
+					"size": [2,46,2],
+					"origin": [13.5,-47,-15.5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,0],
+					"size": [32,6,32],
+					"origin": [-16,-53,-16],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,71],
+					"size": [30,3,30],
+					"origin": [-15,-56,-15],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [96,0],
+					"size": [26,3,26],
+					"origin": [-13,-59,-13],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [96,38],
+					"size": [10,1,10],
+					"origin": [-5,-60,-5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,8],
+					"size": [5,7,5],
+					"origin": [-2.5,-65,-2.5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [0,0],
+					"size": [6,2,6],
+					"origin": [-3,-66,-3],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [68,104],
+					"size": [2,46,2],
+					"origin": [-15.5,-47,-15.5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [76,104],
+					"size": [2,46,2],
+					"origin": [-15.5,-47,13.5],
+					"inflate": 0,
+					"mirror": false
+				},
+				{
+					"uv": [60,152],
+					"size": [2,46,2],
+					"origin": [13.5,-47,13.5],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "rightdoor",
+			"pivot": [-14,-6,-14.5],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [32,104],
+					"size": [14,46,1],
+					"origin": [0,-17,-0.5],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"group_name": "leftdoor",
+			"pivot": [14,-6,-14.5],
+			"rotation": [0,0,0],
+			"cubes": [
+				{
+					"uv": [1,104],
+					"size": [14,46,1],
+					"origin": [-14,-17,-0.5],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,-180,0],
+			"cubes": [
+				{
+					"uv": [90,74],
+					"size": [1,46,30],
+					"origin": [-15,-47,-15],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		},
+		{
+			"pivot": [0,24,0],
+			"rotation": [0,-90,0],
+			"cubes": [
+				{
+					"uv": [90,74],
+					"size": [1,46,30],
+					"origin": [-15,-47,-15],
+					"inflate": 0,
+					"mirror": false
+				}
+			]
+		}
+	]
+}

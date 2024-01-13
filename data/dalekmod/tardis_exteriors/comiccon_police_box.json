@@ -1,0 +1,12 @@
+{
+    "exteriorName":"Comic-Con Police Box",
+    "interiorPath":"dalekmod:tardis_default",
+    "modelPath": [
+        "dalekmod:models/tileentity/tardis/comiccon_police_box.json"
+
+    ],
+    "xpValue":100,
+    "unlockable":false,
+    "isDefaultSelection":false,
+    "desc":"Kiseki's TARDIS - Tenebrosus"
+}

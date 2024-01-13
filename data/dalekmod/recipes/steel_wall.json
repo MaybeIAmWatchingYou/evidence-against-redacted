@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"SSS"
+	],
+	"key": {
+		"S": {
+			"item": "dalekmod:steel_block"
+		}
+	},
+	"result": {
+		"item": "dalekmod:steel_wall",
+		"count": 6
+	}
+}

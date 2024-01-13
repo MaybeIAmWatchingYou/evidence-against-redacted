@@ -1,0 +1,43 @@
+{
+  "parent": "dalekmod:root",
+  "display": {
+    "icon": {
+      "item": "dalekmod:gas_mask"
+    },
+    "title": {
+      "translate": "advancements.dalekmod.wear_gas_mask.title"
+    },
+    "description": {
+      "translate": "advancements.dalekmod.wear_gas_mask.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wear_gas_mask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "item": "dalekmod:gas_mask"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wear_gas_mask"
+    ]
+  ]
+}

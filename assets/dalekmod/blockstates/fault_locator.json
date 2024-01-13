@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dalekmod:block/fault_locator", "y": 0},
+    "facing=south": { "model": "dalekmod:block/fault_locator", "y": 180 },
+    "facing=west":  { "model": "dalekmod:block/fault_locator", "y": 270 },
+    "facing=east":  { "model": "dalekmod:block/fault_locator", "y": 90 }
+  }
+}
